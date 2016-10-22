@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/new/icons">
+        <file>searchIcon.png</file>
+        <file>kyivstarIcon.jpg</file>
+        <file>vodafoneIcon.jpg</file>
+        <file>mtsIcon.png</file>
+        <file>AltiTelIcon.png</file>
+        <file>AltiVoipIcon.png</file>
+        <file>GlobalSimIcon.jpg</file>
+        <file>GoodLineIcon.jpg</file>
+        <file>IntertelecomIcon.jpg</file>
+        <file>lifecellIcon.png</file>
+        <file>MaxNetIcon.png</file>
+        <file>NewToneIcon.jpg</file>
+        <file>PeopleNetIcon.jpg</file>
+        <file>SimforourIcon.gif</file>
+        <file>teletieIcon.jpeg</file>
+        <file>TravelSimIcon.jpg</file>
+        <file>TymeLogoIcon.png</file>
+        <file>KievstarInternet.jpg</file>
+        <file>InformationIcon.png</file>
+        <file>DeleteCharIcon.png</file>
+    </qresource>
+</RCC>
