@@ -34,6 +34,18 @@ private slots:
 
     void on_pushButtonFind_clicked();
 
+    void on_pushButtonMobile_clicked();
+
+    void on_pushButtonInternet_clicked();
+
+    void on_pushButtonEMoney_clicked();
+
+    void on_pushButtonGames_clicked();
+
+    void on_pushButtonGKH_clicked();
+
+    void on_pushButtonTaxi_clicked();
+
 private:
     Ui::MainWindow *ui;
     short lang = 0;     //0 -- UKR, 1 -- RUS, 2 -- ENG

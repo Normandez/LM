@@ -12,3 +12,17 @@ DialogNumPad::~DialogNumPad()
 {
     delete ui;
 }
+
+void DialogNumPad::ChkLenghChar()
+{
+    if (ui->lineEditNumber->text().length() == 7)
+    {
+        ui->lineEditNumber->setText(ui->lineEditNumber->text() + ")");
+    }
+}
+
+void DialogNumPad::on_pushButton1_clicked()
+{
+    ui->lineEditNumber->setText(ui->lineEditNumber->text() + ui->pushButton1->text());
+    ChkLenghChar();
+}

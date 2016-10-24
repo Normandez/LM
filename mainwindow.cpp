@@ -9,6 +9,15 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    //Начальная конфигурация кнопок услуг
+    ui->widgetMobile->setVisible(true);
+    ui->widgetInternet->setVisible(false);
+    ui->widgetEMoney->setVisible(false);
+    ui->widgetGames->setVisible(false);
+    ui->widgetGKH->setVisible(false);
+    ui->widgetTaxi->setVisible(false);
+    //
 }
 
 MainWindow::~MainWindow()
@@ -74,13 +83,13 @@ void MainWindow::changeKeyLang (){
     //UKR
     if (lang == 0){
         ui->labelFind->setText("Пошук послуги...");
-        ui->pushButtonInfo->setText("Інформація");
-        ui->tabWidgetMain->setTabText(0, "Мобільний зв'язок");
-        ui->tabWidgetMain->setTabText(1, "Таксі");
-        ui->tabWidgetMain->setTabText(2, "Інтернет і телефонія");
-        ui->tabWidgetMain->setTabText(3, "Ігри");
-        ui->tabWidgetMain->setTabText(4, "Електронні гроші");
-        ui->tabWidgetMain->setTabText(5, "ЖКГ");
+        ui->pushButtonInfo->setText ("Інформація");
+        ui->pushButtonMobile->setText ("Мобільний зв'язок");
+        ui->pushButtonTaxi->setText ("Таксі");
+        ui->pushButtonInternet->setText("Інтернет і телефонія");
+        ui->pushButtonGames->setText("Ігри");
+        ui->pushButtonEMoney->setText("Електронні гроші");
+        ui->pushButtonGKH->setText("ЖКГ");
     }
     //
 
@@ -88,12 +97,12 @@ void MainWindow::changeKeyLang (){
     if (lang == 1){
         ui->labelFind->setText("Поиск услуги...");
         ui->pushButtonInfo->setText("Информация");
-        ui->tabWidgetMain->setTabText(0, "Мобильная связь");
-        ui->tabWidgetMain->setTabText(1, "Такси");
-        ui->tabWidgetMain->setTabText(2, "Интернет и телефония");
-        ui->tabWidgetMain->setTabText(3, "Игры");
-        ui->tabWidgetMain->setTabText(4, "Электронные деньги");
-        ui->tabWidgetMain->setTabText(5, "ЖКХ");
+        ui->pushButtonMobile->setText("Мобильная связь");
+        ui->pushButtonTaxi->setText("Такси");
+        ui->pushButtonInternet->setText("Интернет и телефония");
+        ui->pushButtonGames->setText("Игры");
+        ui->pushButtonEMoney->setText("Электронные деньги");
+        ui->pushButtonGKH->setText("ЖКХ");
     }
     //
 
@@ -101,12 +110,83 @@ void MainWindow::changeKeyLang (){
     if (lang == 2){
         ui->labelFind->setText("Services search...");
         ui->pushButtonInfo->setText("Information");
-        ui->tabWidgetMain->setTabText(0, "Mobile connection");
-        ui->tabWidgetMain->setTabText(1, "Taxi");
-        ui->tabWidgetMain->setTabText(2, "Internet and phone");
-        ui->tabWidgetMain->setTabText(3, "Games");
-        ui->tabWidgetMain->setTabText(4, "Electronic money");
-        ui->tabWidgetMain->setTabText(5, "Housing");
+        ui->pushButtonMobile->setText("Mobile connection");
+        ui->pushButtonTaxi->setText("Taxi");
+        ui->pushButtonInternet->setText("Internet and phone");
+        ui->pushButtonGames->setText("Games");
+        ui->pushButtonEMoney->setText("Electronic money");
+        ui->pushButtonGKH->setText("Housing");
     }
     //
 }
+//Кнопка "Мобильная связь"
+void MainWindow::on_pushButtonMobile_clicked()
+{
+    ui->widgetMobile->setVisible(true);
+    ui->widgetInternet->setVisible(false);
+    ui->widgetEMoney->setVisible(false);
+    ui->widgetGames->setVisible(false);
+    ui->widgetGKH->setVisible(false);
+    ui->widgetTaxi->setVisible(false);
+}
+//
+
+//Кнопка "Интернет и телефония"
+void MainWindow::on_pushButtonInternet_clicked()
+{
+    ui->widgetMobile->setVisible(false);
+    ui->widgetInternet->setVisible(true);
+    ui->widgetEMoney->setVisible(false);
+    ui->widgetGames->setVisible(false);
+    ui->widgetGKH->setVisible(false);
+    ui->widgetTaxi->setVisible(false);
+}
+//
+
+//Кнопка "Электронные деньги"
+void MainWindow::on_pushButtonEMoney_clicked()
+{
+    ui->widgetMobile->setVisible(false);
+    ui->widgetInternet->setVisible(false);
+    ui->widgetEMoney->setVisible(true);
+    ui->widgetGames->setVisible(false);
+    ui->widgetGKH->setVisible(false);
+    ui->widgetTaxi->setVisible(false);
+}
+//
+
+//Кнопка "Игры"
+void MainWindow::on_pushButtonGames_clicked()
+{
+    ui->widgetMobile->setVisible(false);
+    ui->widgetInternet->setVisible(false);
+    ui->widgetEMoney->setVisible(false);
+    ui->widgetGames->setVisible(true);
+    ui->widgetGKH->setVisible(false);
+    ui->widgetTaxi->setVisible(false);
+}
+//
+
+//Кнопка "ЖКХ"
+void MainWindow::on_pushButtonGKH_clicked()
+{
+    ui->widgetMobile->setVisible(false);
+    ui->widgetInternet->setVisible(false);
+    ui->widgetEMoney->setVisible(false);
+    ui->widgetGames->setVisible(false);
+    ui->widgetGKH->setVisible(true);
+    ui->widgetTaxi->setVisible(false);
+}
+//
+
+//Кнопка "Такси"
+void MainWindow::on_pushButtonTaxi_clicked()
+{
+    ui->widgetMobile->setVisible(false);
+    ui->widgetInternet->setVisible(false);
+    ui->widgetEMoney->setVisible(false);
+    ui->widgetGames->setVisible(false);
+    ui->widgetGKH->setVisible(false);
+    ui->widgetTaxi->setVisible(true);
+}
+//
