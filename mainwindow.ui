@@ -57,10 +57,10 @@
      <widget class="QWidget" name="widget" native="true">
       <property name="geometry">
        <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>681</width>
-        <height>541</height>
+        <x>10</x>
+        <y>30</y>
+        <width>641</width>
+        <height>251</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -497,24 +497,13 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
         </size>
        </property>
       </widget>
-      <zorder>pushButtonKyivstarMob</zorder>
-      <zorder>pushButtonVodafoneMob</zorder>
-      <zorder>pushButtonMTSMob</zorder>
-      <zorder>pushButtonLifecellMob</zorder>
-      <zorder>pushButtonGoodLineMob</zorder>
-      <zorder>pushButtonSimfortourMob</zorder>
-      <zorder>pushButtonIntertelecomMob</zorder>
-      <zorder>pushButtonPeoplenetMob</zorder>
-      <zorder>pushButtonMaxnetMob</zorder>
-      <zorder>pushButtonTeletieMob</zorder>
-      <zorder>pushButtonNewtoneMob</zorder>
-      <zorder>pushButtonTravelsimMob</zorder>
-      <zorder>pushButtonAltitelMob</zorder>
-      <zorder>pushButtonAltowoip</zorder>
-      <zorder>pushButtonGlobalsimMob</zorder>
-      <zorder>lineEditFind</zorder>
-      <zorder>graphicsView</zorder>
      </widget>
+     <zorder>widget</zorder>
+     <zorder>pushButtonKyivstarMob</zorder>
+     <zorder>pushButtonVodafoneMob</zorder>
+     <zorder>pushButtonMTSMob</zorder>
+     <zorder>pushButtonLifecellMob</zorder>
+     <zorder>pushButtonGoodLineMob</zorder>
     </widget>
     <widget class="QWidget" name="tabInternetAndPhone">
      <attribute name="title">
@@ -2318,10 +2307,10 @@ background-color:#eb510f;
    <widget class="QWidget" name="widget_8" native="true">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>0</y>
-      <width>231</width>
-      <height>81</height>
+      <x>490</x>
+      <y>10</y>
+      <width>211</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
