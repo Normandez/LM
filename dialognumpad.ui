@@ -334,23 +334,20 @@ color: black;
     </property>
     <property name="font">
      <font>
-      <family>5pt MS Shell Dlg 2</family>
       <pointsize>18</pointsize>
-      <weight>2</weight>
-      <italic>false</italic>
-      <bold>false</bold>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QLineEdit{
 background-color:rgb(255, 255, 255);
 color: rgb(0, 0, 0);
-font: 17,5pt &quot;MS Shell Dlg 2&quot;;
 }
 </string>
     </property>
     <property name="text">
-     <string>+38(</string>
+     <string>+38 (   ) </string>
     </property>
    </widget>
   </widget>
@@ -410,7 +407,7 @@ font-weight: 600;
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="pushButtonDelete">
    <property name="geometry">
     <rect>
      <x>600</x>
