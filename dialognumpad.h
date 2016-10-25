@@ -11,7 +11,7 @@ class DialogNumPad : public QDialog
 {
     Q_OBJECT
 private:
-    short numOfDigets = 0;
+    short numOfDigets = 0;      //Учет количества цифр номера (без +38)
 
 public:
     explicit DialogNumPad(QWidget *parent = 0);
