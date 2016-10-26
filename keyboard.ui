@@ -610,7 +610,7 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
       <x>10</x>
       <y>208</y>
       <width>91</width>
-      <height>41</height>
+      <height>33</height>
      </rect>
     </property>
     <property name="font">
@@ -1357,7 +1357,7 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
       <x>560</x>
       <y>158</y>
       <width>91</width>
-      <height>41</height>
+      <height>33</height>
      </rect>
     </property>
     <property name="font">
@@ -1621,6 +1621,52 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <string>к</string>
     </property>
    </widget>
+   <widget class="QWidget" name="widget_8" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>91</width>
+      <height>8</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget{
+border: 2px solid #d6d6d6;
+background-color:white;
+border-color: rgb(214, 214, 214);
+}</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_9" native="true">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>190</y>
+      <width>91</width>
+      <height>8</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget{
+border: 2px solid #d6d6d6;
+background-color:white;
+border-color: rgb(214, 214, 214);
+}</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QWidget" name="widget_2" native="true">
    <property name="geometry">
@@ -1845,7 +1891,6 @@ font-weight: 600;
   <zorder>pushButton_58</zorder>
   <zorder>pushButton_57</zorder>
   <zorder>pushButton_56</zorder>
-  <zorder>pushButton_6</zorder>
  </widget>
  <resources>
   <include location="resource.qrc"/>
