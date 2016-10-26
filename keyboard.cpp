@@ -930,3 +930,21 @@ void Keyboard::on_pushButton_51_released()
         ui->pushButton_52->setText("Space");
     }
 }
+
+
+
+//Кнопка "Назад"
+void Keyboard::on_pushButtonBack_clicked()
+{
+    close();
+}
+//
+
+
+
+//Кнопка "Главная"
+void Keyboard::on_pushButtonMain_clicked()
+{
+    close();
+}
+//

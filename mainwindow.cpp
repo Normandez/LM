@@ -920,6 +920,7 @@ bool MainWindow::eventFilter(QObject *object, QEvent *event)
        if(mouseEvent != 0)
        {
           ui->widget->show();
+          ui->widgetInfoLang->hide();
        }
     }
 
@@ -930,6 +931,7 @@ bool MainWindow::eventFilter(QObject *object, QEvent *event)
 void MainWindow::on_LogoBut_clicked()
 {
     ui->widget->hide();
+    ui->widgetInfoLang->show();
 }
 //дальше действия ко всем кнопкам на клавиатуре для изменения текстового поля
 void MainWindow::on_KeyBoardBut_1_clicked()

@@ -516,3 +516,22 @@ void DialogNumPad::on_pushButtonDelete_clicked()
     //
 }
 //
+
+
+
+//Кнопка "Назад"
+void DialogNumPad::on_pushButtonBack_clicked()
+{
+    close();
+}
+//
+
+
+
+//Кнопка "Главная"
+void DialogNumPad::on_pushButtonMain_clicked()
+{
+    close();
+}
+//
+

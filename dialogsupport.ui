@@ -274,7 +274,7 @@ color: black;
 }</string>
        </property>
        <property name="text">
-        <string>Приймач готвіки:</string>
+        <string>Приймач готівки:</string>
        </property>
       </widget>
      </item>
@@ -338,7 +338,7 @@ color: black;
        </property>
        <property name="text">
         <string>Кількість вдалих
- фінансових операцій:</string>
+фінансових операцій:</string>
        </property>
       </widget>
      </item>

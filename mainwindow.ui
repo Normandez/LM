@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>351</height>
+    <height>350</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -110,7 +110,7 @@ background-color:#eb510f;
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="widget_8" native="true">
+   <widget class="QWidget" name="widgetInfoLang" native="true">
     <property name="geometry">
      <rect>
       <x>580</x>
@@ -2116,7 +2116,7 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>86</y>
+      <y>80</y>
       <width>801</width>
       <height>271</height>
      </rect>
@@ -3798,7 +3798,17 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>Sip-net</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/SipnetIcon.jpg</normaloff>:/new/icons/SipnetIcon.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_88">
@@ -3822,7 +3832,17 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>1 ГБ</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/1gbIcon.gif</normaloff>:/new/icons/1gbIcon.gif</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButtonKievstarInet">
@@ -3880,7 +3900,17 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>Формат-net</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/FormatNetIcon.png</normaloff>:/new/icons/FormatNetIcon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_91">
@@ -3904,7 +3934,17 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>Мега Стайл</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/MegaStyleIcon.jpg</normaloff>:/new/icons/MegaStyleIcon.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_92">
@@ -3928,7 +3968,17 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>Green net</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/GreenNetIcon.png</normaloff>:/new/icons/GreenNetIcon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_93">
@@ -3952,7 +4002,17 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>NIC UA</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/NicUAIcon.jpg</normaloff>:/new/icons/NicUAIcon.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_94">
@@ -3976,10 +4036,20 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>DiaNet ISP</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/DiaNetIcon.png</normaloff>:/new/icons/DiaNetIcon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_95">
+    <widget class="QPushButton" name="pushButton_96">
      <property name="geometry">
       <rect>
        <x>110</x>
@@ -4000,10 +4070,20 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>Хмельницнет</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/TenetIcon.jpg</normaloff>:/new/icons/TenetIcon.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_96">
+    <widget class="QPushButton" name="pushButton_97">
      <property name="geometry">
       <rect>
        <x>200</x>
@@ -4024,10 +4104,20 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>TENET</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/BatyevkaNetIcon.png</normaloff>:/new/icons/BatyevkaNetIcon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_97">
+    <widget class="QPushButton" name="pushButton_98">
      <property name="geometry">
       <rect>
        <x>290</x>
@@ -4048,10 +4138,20 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>Batyevka NET</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/KichkasNetIcon.jpg</normaloff>:/new/icons/KichkasNetIcon.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_98">
+    <widget class="QPushButton" name="pushButton_99">
      <property name="geometry">
       <rect>
        <x>380</x>
@@ -4072,10 +4172,20 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>Kichkas NET</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/GTSIcon.png</normaloff>:/new/icons/GTSIcon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_99">
+    <widget class="QPushButton" name="pushButton_102">
      <property name="geometry">
       <rect>
        <x>470</x>
@@ -4096,10 +4206,20 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>GTS</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/FreeHostIcon.png</normaloff>:/new/icons/FreeHostIcon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_100">
+    <widget class="QPushButton" name="pushButton_103">
      <property name="geometry">
       <rect>
        <x>560</x>
@@ -4120,10 +4240,20 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>МТС Украина</string>
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/InfoMirIcon.png</normaloff>:/new/icons/InfoMirIcon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_101">
+    <widget class="QPushButton" name="pushButton_104">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -4144,86 +4274,24 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
 }</string>
      </property>
      <property name="text">
-      <string>PEOPLEnet</string>
+      <string/>
      </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_102">
-     <property name="geometry">
-      <rect>
-       <x>110</x>
-       <y>170</y>
-       <width>81</width>
-       <height>71</height>
-      </rect>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/new/icons/DikiySadIcon.jpg</normaloff>:/new/icons/DikiySadIcon.jpg</iconset>
      </property>
-     <property name="font">
-      <font>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QPushButton{
-background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
-}</string>
-     </property>
-     <property name="text">
-      <string>FREEhost</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_103">
-     <property name="geometry">
-      <rect>
-       <x>200</x>
-       <y>170</y>
-       <width>81</width>
-       <height>71</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QPushButton{
-background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
-}</string>
-     </property>
-     <property name="text">
-      <string>ИНФОМИР</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_104">
-     <property name="geometry">
-      <rect>
-       <x>290</x>
-       <y>170</y>
-       <width>81</width>
-       <height>71</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QPushButton{
-background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
-}</string>
-     </property>
-     <property name="text">
-      <string>Дикий Сад</string>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
    </widget>
    <widget class="QPushButton" name="LogoBut">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>-10</x>
       <y>0</y>
       <width>80</width>
       <height>80</height>
@@ -4250,7 +4318,7 @@ border: 0px;
     </property>
    </widget>
    <zorder>widget_2</zorder>
-   <zorder>widget_8</zorder>
+   <zorder>widgetInfoLang</zorder>
    <zorder>widgetMobile</zorder>
    <zorder>pushButtonMobile</zorder>
    <zorder>pushButtonInternet</zorder>

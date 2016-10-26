@@ -20,5 +20,19 @@
         <file>KievstarInternet.jpg</file>
         <file>InformationIcon.png</file>
         <file>DeleteCharIcon.png</file>
+        <file>1gbIcon.gif</file>
+        <file>BatyevkaNetIcon.png</file>
+        <file>DiaNetIcon.png</file>
+        <file>DikiySadIcon.jpg</file>
+        <file>FormatNetIcon.png</file>
+        <file>FreeHostIcon.png</file>
+        <file>GreenNetIcon.png</file>
+        <file>GTSIcon.png</file>
+        <file>InfoMirIcon.png</file>
+        <file>KichkasNetIcon.jpg</file>
+        <file>MegaStyleIcon.jpg</file>
+        <file>NicUAIcon.jpg</file>
+        <file>TenetIcon.jpg</file>
+        <file>SipnetIcon.jpg</file>
     </qresource>
 </RCC>

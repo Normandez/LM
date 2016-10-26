@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>720</width>
-    <height>530</height>
+    <width>544</width>
+    <height>420</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,10 +19,10 @@
   <widget class="QWidget" name="widget" native="true">
    <property name="geometry">
     <rect>
-     <x>240</x>
+     <x>170</x>
      <y>90</y>
-     <width>271</width>
-     <height>321</height>
+     <width>191</width>
+     <height>251</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -35,8 +35,8 @@ background-color:rgb(214, 214, 214);
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>71</width>
-      <height>71</height>
+      <width>51</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -59,9 +59,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>170</y>
-      <width>71</width>
-      <height>71</height>
+      <y>130</y>
+      <width>51</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -83,10 +83,10 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
    <widget class="QPushButton" name="pushButton5">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>90</y>
-      <width>71</width>
-      <height>71</height>
+      <x>70</x>
+      <y>70</y>
+      <width>51</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -108,10 +108,10 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
    <widget class="QPushButton" name="pushButton9">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>170</y>
-      <width>71</width>
-      <height>71</height>
+      <x>130</x>
+      <y>130</y>
+      <width>51</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -134,9 +134,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>90</y>
-      <width>71</width>
-      <height>71</height>
+      <y>70</y>
+      <width>51</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -158,10 +158,10 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
    <widget class="QPushButton" name="pushButton6">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>90</y>
-      <width>71</width>
-      <height>71</height>
+      <x>130</x>
+      <y>70</y>
+      <width>51</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -183,10 +183,10 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
    <widget class="QPushButton" name="pushButton2">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>70</x>
       <y>10</y>
-      <width>71</width>
-      <height>71</height>
+      <width>51</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -208,10 +208,10 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
    <widget class="QPushButton" name="pushButton8">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>170</y>
-      <width>71</width>
-      <height>71</height>
+      <x>70</x>
+      <y>130</y>
+      <width>51</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -234,9 +234,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>250</y>
-      <width>251</width>
-      <height>61</height>
+      <y>190</y>
+      <width>171</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -258,10 +258,10 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
    <widget class="QPushButton" name="pushButton3">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>130</x>
       <y>10</y>
-      <width>71</width>
-      <height>71</height>
+      <width>51</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -284,9 +284,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
   <widget class="QWidget" name="widget_2" native="true">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>70</x>
      <y>10</y>
-     <width>511</width>
+     <width>461</width>
      <height>81</height>
     </rect>
    </property>
@@ -302,7 +302,7 @@ font-weight: 600;
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>0</y>
+      <y>10</y>
       <width>121</width>
       <height>16</height>
      </rect>
@@ -327,9 +327,9 @@ color: black;
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>20</y>
-      <width>421</width>
-      <height>51</height>
+      <y>30</y>
+      <width>351</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -354,10 +354,10 @@ color: rgb(0, 0, 0);
   <widget class="QWidget" name="widget_7" native="true">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>120</y>
-     <width>131</width>
-     <height>141</height>
+     <x>30</x>
+     <y>110</y>
+     <width>111</width>
+     <height>101</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -372,9 +372,9 @@ font-weight: 600;
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>20</y>
-      <width>111</width>
-      <height>101</height>
+      <y>10</y>
+      <width>91</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="text">
@@ -410,10 +410,10 @@ font-weight: 600;
   <widget class="QPushButton" name="pushButtonDelete">
    <property name="geometry">
     <rect>
-     <x>600</x>
-     <y>30</y>
-     <width>51</width>
-     <height>51</height>
+     <x>450</x>
+     <y>40</y>
+     <width>41</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="font">
@@ -438,13 +438,13 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <normaloff>:/new/icons/DeleteCharIcon.png</normaloff>:/new/icons/DeleteCharIcon.png</iconset>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_58">
+  <widget class="QPushButton" name="pushButtonNext">
    <property name="geometry">
     <rect>
-     <x>550</x>
-     <y>430</y>
-     <width>141</width>
-     <height>91</height>
+     <x>390</x>
+     <y>360</y>
+     <width>131</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
@@ -465,16 +465,16 @@ font-weight: 600;
 }</string>
    </property>
    <property name="text">
-    <string>ДАЛЕЕ  &gt;</string>
+    <string>ДАЛІ  &gt;</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_56">
+  <widget class="QPushButton" name="pushButtonBack">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>430</y>
-     <width>141</width>
-     <height>91</height>
+     <x>10</x>
+     <y>360</y>
+     <width>131</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
@@ -501,13 +501,13 @@ font-weight: 600;
     <string>&lt;  НАЗАД</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_57">
+  <widget class="QPushButton" name="pushButtonMain">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>430</y>
+     <x>200</x>
+     <y>360</y>
      <width>141</width>
-     <height>91</height>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
@@ -528,7 +528,7 @@ font-weight: 600;
 }</string>
    </property>
    <property name="text">
-    <string>ГЛАВНАЯ</string>
+    <string>ГОЛОВНА</string>
    </property>
   </widget>
  </widget>

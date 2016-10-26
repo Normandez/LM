@@ -132,6 +132,10 @@ private slots:
 
     void on_pushButton_51_released();
 
+    void on_pushButtonBack_clicked();
+
+    void on_pushButtonMain_clicked();
+
 private:
     Ui::Keyboard *ui;
 

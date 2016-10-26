@@ -43,6 +43,12 @@ private slots:
 
     void on_pushButtonDelete_clicked();
 
+    void on_pushButton_56_clicked();
+
+    void on_pushButtonBack_clicked();
+
+    void on_pushButtonMain_clicked();
+
 private:
     Ui::DialogNumPad *ui;
 };
