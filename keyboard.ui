@@ -1671,9 +1671,9 @@ border-color: rgb(214, 214, 214);
   <widget class="QWidget" name="widget_2" native="true">
    <property name="geometry">
     <rect>
-     <x>200</x>
+     <x>220</x>
      <y>10</y>
-     <width>471</width>
+     <width>451</width>
      <height>71</height>
     </rect>
    </property>
@@ -1714,7 +1714,7 @@ color: black;
      <rect>
       <x>10</x>
       <y>20</y>
-      <width>451</width>
+      <width>431</width>
       <height>41</height>
      </rect>
     </property>
@@ -1738,7 +1738,7 @@ color: rgb(0, 0, 0);
   <widget class="QWidget" name="widget_7" native="true">
    <property name="geometry">
     <rect>
-     <x>70</x>
+     <x>100</x>
      <y>10</y>
      <width>111</width>
      <height>71</height>
@@ -1777,8 +1777,8 @@ font-weight: 600;
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>41</width>
-     <height>51</height>
+     <width>71</width>
+     <height>71</height>
     </rect>
    </property>
    <property name="text">
@@ -1810,12 +1810,13 @@ font-weight: 600;
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
-background-color: #5e0000;
+background-color: #eb510f;
 border: 3px solid white;
 color: rgb(255, 255, 255);
 border-radius: 1em;
 font-weight: 600;
-}</string>
+}
+    </string>
    </property>
    <property name="text">
     <string>ДАЛІ  &gt;</string>
@@ -1840,7 +1841,7 @@ font-weight: 600;
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
-background-color: #20603d;
+background-color: rgb(7, 116, 187);
 border: 3px solid white;
 color: rgb(255, 255, 255);
 border-radius: 1em;
@@ -1873,12 +1874,13 @@ font-weight: 600;
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
-background-color: #5e0000;
+background-color: #eb510f;
 border: 3px solid white;
 color: rgb(255, 255, 255);
 border-radius: 1em;
 font-weight: 600;
-}</string>
+}
+    </string>
    </property>
    <property name="text">
     <string>&lt;  НАЗАД</string>

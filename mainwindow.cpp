@@ -134,6 +134,15 @@ void MainWindow::changeKeyLang (){
 //Кнопка "Мобильная связь"
 void MainWindow::on_pushButtonMobile_clicked()
 {
+    //Меняю цвет вкладки
+    ui->pushButtonMobile->setStyleSheet("border-radius: 1px;background-color: rgb(7, 116, 187);color: #ffffff");
+    ui->pushButtonInternet->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonEMoney->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGames->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGKH->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonTaxi->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    //
+
     ui->widgetMobile->setVisible(true);
     ui->widgetInternet->setVisible(false);
     ui->widgetEMoney->setVisible(false);
@@ -146,6 +155,15 @@ void MainWindow::on_pushButtonMobile_clicked()
 //Кнопка "Интернет и телефония"
 void MainWindow::on_pushButtonInternet_clicked()
 {
+    //Меняю цвет вкладки
+    ui->pushButtonMobile->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonInternet->setStyleSheet("border-radius: 1px;background-color: rgb(7, 116, 187);color: #ffffff");
+    ui->pushButtonEMoney->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGames->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGKH->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonTaxi->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    //
+
     ui->widgetMobile->setVisible(false);
     ui->widgetInternet->setVisible(true);
     ui->widgetEMoney->setVisible(false);
@@ -158,6 +176,15 @@ void MainWindow::on_pushButtonInternet_clicked()
 //Кнопка "Электронные деньги"
 void MainWindow::on_pushButtonEMoney_clicked()
 {
+    //Меняю цвет вкладки
+    ui->pushButtonMobile->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonInternet->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonEMoney->setStyleSheet("border-radius: 1px;background-color: rgb(7, 116, 187);color: #ffffff");
+    ui->pushButtonGames->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGKH->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonTaxi->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    //
+
     ui->widgetMobile->setVisible(false);
     ui->widgetInternet->setVisible(false);
     ui->widgetEMoney->setVisible(true);
@@ -170,6 +197,15 @@ void MainWindow::on_pushButtonEMoney_clicked()
 //Кнопка "Игры"
 void MainWindow::on_pushButtonGames_clicked()
 {
+    //Меняю цвет вкладки
+    ui->pushButtonMobile->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonInternet->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonEMoney->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGames->setStyleSheet("border-radius: 1px;background-color: rgb(7, 116, 187);color: #ffffff");
+    ui->pushButtonGKH->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonTaxi->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    //
+
     ui->widgetMobile->setVisible(false);
     ui->widgetInternet->setVisible(false);
     ui->widgetEMoney->setVisible(false);
@@ -182,6 +218,15 @@ void MainWindow::on_pushButtonGames_clicked()
 //Кнопка "ЖКХ"
 void MainWindow::on_pushButtonGKH_clicked()
 {
+    //Меняю цвет вкладки
+    ui->pushButtonMobile->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonInternet->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonEMoney->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGames->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGKH->setStyleSheet("border-radius: 1px;background-color: rgb(7, 116, 187);color: #ffffff");
+    ui->pushButtonTaxi->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    //
+
     ui->widgetMobile->setVisible(false);
     ui->widgetInternet->setVisible(false);
     ui->widgetEMoney->setVisible(false);
@@ -194,6 +239,15 @@ void MainWindow::on_pushButtonGKH_clicked()
 //Кнопка "Такси"
 void MainWindow::on_pushButtonTaxi_clicked()
 {
+    //Меняю цвет вкладки
+    ui->pushButtonMobile->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonInternet->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonEMoney->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGames->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGKH->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonTaxi->setStyleSheet("border-radius: 1px;background-color: rgb(7, 116, 187);color: #ffffff");
+    //
+
     ui->widgetMobile->setVisible(false);
     ui->widgetInternet->setVisible(false);
     ui->widgetEMoney->setVisible(false);

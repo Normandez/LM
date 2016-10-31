@@ -753,7 +753,7 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <property name="styleSheet">
      <string notr="true">QPushButton{
 border-radius: 1px;
-background-color: #eb510f;
+background-color: rgb(7, 116, 187);
 color: #ffffff
 }</string>
     </property>
@@ -4291,7 +4291,7 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
    <widget class="QPushButton" name="LogoBut">
     <property name="geometry">
      <rect>
-      <x>-10</x>
+      <x>20</x>
       <y>0</y>
       <width>80</width>
       <height>80</height>
