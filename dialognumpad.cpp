@@ -4,11 +4,17 @@
 
 
 
-DialogNumPad::DialogNumPad(QWidget *parent) :
+DialogNumPad::DialogNumPad(QWidget *parent, short language, QPixmap pic) :
     QDialog(parent),
     ui(new Ui::DialogNumPad)
 {
     ui->setupUi(this);
+
+    lang = language;
+    SetLanguage();
+
+    picture = pic;
+    SetPicture ();
 }
 
 
@@ -17,6 +23,46 @@ DialogNumPad::~DialogNumPad()
 {
     delete ui;
 }
+
+
+
+//Локализация
+void DialogNumPad::SetLanguage()
+{
+    if (lang == 0)      //UKR
+    {
+        ui->labelTitle->setText("Введіть номер:");
+        ui->pushButtonNext->setText("ДАЛІ  >");
+        ui->pushButtonMain->setText("ГОЛОВНА");
+        ui->pushButtonBack->setText("<  НАЗАД");
+    }
+
+    if (lang == 1)      //RUS
+    {
+        ui->labelTitle->setText("Введите номер:");
+        ui->pushButtonNext->setText("ДАЛЕЕ  >");
+        ui->pushButtonMain->setText("ГЛАВНАЯ");
+        ui->pushButtonBack->setText("<  НАЗАД");
+    }
+
+    if (lang == 2)      //ENG
+    {
+        ui->labelTitle->setText("Enter the number:");
+        ui->pushButtonNext->setText("NEXT  >");
+        ui->pushButtonMain->setText("MAIN");
+        ui->pushButtonBack->setText("<  BACK");
+    }
+}
+//
+
+
+
+//Установка картинки
+void DialogNumPad::SetPicture ()
+{
+    ui->labelPicture->setPixmap(picture);
+}
+//
 
 
 

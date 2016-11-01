@@ -17,6 +17,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->widgetGames->setVisible(false);
     ui->widgetGKH->setVisible(false);
     ui->widgetTaxi->setVisible(false);
+    ui->widgetInfo->setVisible(false);
     //
 
     //Начальное значение переменных для работы с языками,
@@ -32,26 +33,19 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->widget->hide();
 }
 
+
+
 MainWindow::~MainWindow()
 {
     delete ui;
 }
 
-//Кнопка "Поиск"
-void MainWindow::on_pushButtonFind_clicked()
-{
-    QString buf = ui->lineEditFind->text();
-    if (buf == "@@@Support@@@"){
-        DialogSupport *wndSup = new DialogSupport (this);
-        wndSup->exec();
-    }
-}
-//
+
 
 //Кнопка "Киевстар Моб."
 void MainWindow::on_pushButtonKyivstarMob_clicked()
 {
-    DialogNumPad *wndNumPad = new DialogNumPad (this);
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonKyivstarMob->icon().pixmap(250,250));
     wndNumPad->exec();
 }
 //
@@ -64,10 +58,152 @@ void MainWindow::on_pushButtonKievstarInet_clicked()
 }
 //
 
+
+
+//Кнопка "Водафон моб"
+void MainWindow::on_pushButtonVodafoneMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonVodafoneMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка "МТС моб"
+void MainWindow::on_pushButtonMTSMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonMTSMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка "ЛайфСелл моб"
+void MainWindow::on_pushButtonLifecellMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonLifecellMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка "Гуд Лайн моб"
+void MainWindow::on_pushButtonGoodLineMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonGoodLineMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка "СимФорТур моб"
+void MainWindow::on_pushButtonSimfortourMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonSimfortourMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка "Интертелеком моб"
+void MainWindow::on_pushButtonIntertelecomMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonIntertelecomMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка "ПиплНет моб"
+void MainWindow::on_pushButtonPeoplenetMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonPeoplenetMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка"Макснет моб"
+void MainWindow::on_pushButtonMaxnetMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonMaxnetMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка "ГлобалСим моб"
+void MainWindow::on_pushButtonGlobalsimMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonGlobalsimMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка "Телетай моб"
+void MainWindow::on_pushButtonTeletieMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonTeletieMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка "НетВан моб"
+void MainWindow::on_pushButtonNewtoneMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonNewtoneMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка "ТревелСим моб"
+void MainWindow::on_pushButtonTravelsimMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonTravelsimMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка "Алтитель моб"
+void MainWindow::on_pushButtonAltitelMob_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonAltitelMob->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
+//Кнопка "АлтиВоип моб"
+void MainWindow::on_pushButtonAltowoip_clicked()
+{
+    DialogNumPad *wndNumPad = new DialogNumPad (this, lang, ui->pushButtonAltowoip->icon().pixmap(250,250));
+    wndNumPad->exec();
+}
+//
+
+
+
 void MainWindow::on_pushButtonUKR_clicked()
 {
     lang = 0;
-    ui->widgetLocaleSelectUKR->setStyleSheet("border: 2px solid #d6d6d6;\nbackground-color:rgb(194, 0, 0);");
+    ui->widgetLocaleSelectUKR->setStyleSheet("border: 2px solid #d6d6d6;\nbackground-color:rgb(7, 116, 187);");
     ui->widgetLocaleSelectRUS->setStyleSheet("border: 2px solid #d6d6d6;\nbackground-color:rgb(255, 255, 255);");
     ui->widgetLocaleSelectENG->setStyleSheet("border: 2px solid #d6d6d6;\nbackground-color:rgb(255, 255, 255);");
     changeKeyLang();
@@ -77,7 +213,7 @@ void MainWindow::on_pushButtonRUS_clicked()
 {
     lang = 1;
     ui->widgetLocaleSelectUKR->setStyleSheet("border: 2px solid #d6d6d6;\nbackground-color:rgb(255, 255, 255);");
-    ui->widgetLocaleSelectRUS->setStyleSheet("border: 2px solid #d6d6d6;\nbackground-color:rgb(194, 0, 0);");
+    ui->widgetLocaleSelectRUS->setStyleSheet("border: 2px solid #d6d6d6;\nbackground-color:rgb(7, 116, 187);");
     ui->widgetLocaleSelectENG->setStyleSheet("border: 2px solid #d6d6d6;\nbackground-color:rgb(255, 255, 255);");
     changeKeyLang();
 }
@@ -87,7 +223,7 @@ void MainWindow::on_pushButtonENG_clicked()
     lang = 2;
     ui->widgetLocaleSelectUKR->setStyleSheet("border: 2px solid #d6d6d6;\nbackground-color:rgb(255, 255, 255);");
     ui->widgetLocaleSelectRUS->setStyleSheet("border: 2px solid #d6d6d6;\nbackground-color:rgb(255, 255, 255);");
-    ui->widgetLocaleSelectENG->setStyleSheet("border: 2px solid #d6d6d6;\nbackground-color:rgb(194, 0, 0);");
+    ui->widgetLocaleSelectENG->setStyleSheet("border: 2px solid #d6d6d6;\nbackground-color:rgb(7, 116, 187);");
     changeKeyLang();
 }
 
@@ -96,12 +232,14 @@ void MainWindow::changeKeyLang (){
     if (lang == 0){
         ui->labelFind->setText("Пошук послуги...");
         ui->pushButtonInfo->setText ("Інформація");
-        ui->pushButtonMobile->setText ("Мобільний зв'язок");
+        ui->pushButtonMobile->setText ("Мобільний\nзв'язок");
         ui->pushButtonTaxi->setText ("Таксі");
-        ui->pushButtonInternet->setText("Інтернет і телефонія");
+        ui->pushButtonInternet->setText("Інтернет\nі телефонія");
         ui->pushButtonGames->setText("Ігри");
-        ui->pushButtonEMoney->setText("Електронні гроші");
+        ui->pushButtonEMoney->setText("Електронні\nгроші");
         ui->pushButtonGKH->setText("ЖКГ");
+        ui->pushButtonNext->setText("ДАЛІ >");
+        ui->pushButtonMainKeyBoard->setText("ГОЛОВНА");
     }
     //
 
@@ -109,12 +247,14 @@ void MainWindow::changeKeyLang (){
     if (lang == 1){
         ui->labelFind->setText("Поиск услуги...");
         ui->pushButtonInfo->setText("Информация");
-        ui->pushButtonMobile->setText("Мобильная связь");
+        ui->pushButtonMobile->setText("Мобильная\nсвязь");
         ui->pushButtonTaxi->setText("Такси");
-        ui->pushButtonInternet->setText("Интернет и телефония");
+        ui->pushButtonInternet->setText("Интернет\nи телефония");
         ui->pushButtonGames->setText("Игры");
-        ui->pushButtonEMoney->setText("Электронные деньги");
+        ui->pushButtonEMoney->setText("Электронные\nденьги");
         ui->pushButtonGKH->setText("ЖКХ");
+        ui->pushButtonNext->setText("ДАЛЕЕ >");
+        ui->pushButtonMainKeyBoard->setText("ГЛАВНАЯ");
     }
     //
 
@@ -122,12 +262,14 @@ void MainWindow::changeKeyLang (){
     if (lang == 2){
         ui->labelFind->setText("Services search...");
         ui->pushButtonInfo->setText("Information");
-        ui->pushButtonMobile->setText("Mobile connection");
+        ui->pushButtonMobile->setText("Mobile\nconnection");
         ui->pushButtonTaxi->setText("Taxi");
-        ui->pushButtonInternet->setText("Internet and phone");
+        ui->pushButtonInternet->setText("Internet\nand phone");
         ui->pushButtonGames->setText("Games");
-        ui->pushButtonEMoney->setText("Electronic money");
+        ui->pushButtonEMoney->setText("Electronic\nmoney");
         ui->pushButtonGKH->setText("Housing");
+        ui->pushButtonNext->setText("NEXT >");
+        ui->pushButtonMainKeyBoard->setText("MAIN");
     }
     //
 }
@@ -975,18 +1117,21 @@ bool MainWindow::eventFilter(QObject *object, QEvent *event)
        {
           ui->widget->show();
           ui->widgetInfoLang->hide();
+          ui->widgetInternet->hide();
+          ui->widgetFind->setGeometry(100, 10, 581, 71);
+          ui->lineEditFind->setGeometry(59, 19, 511, 41);
        }
     }
 
 
     return QMainWindow::eventFilter(object, event);
 }
-//Выход из режима клавиатуры
+/*//Выход из режима клавиатуры
 void MainWindow::on_LogoBut_clicked()
 {
     ui->widget->hide();
     ui->widgetInfoLang->show();
-}
+}*/
 //дальше действия ко всем кнопкам на клавиатуре для изменения текстового поля
 void MainWindow::on_KeyBoardBut_1_clicked()
 {
@@ -1235,3 +1380,81 @@ void MainWindow::on_KeyBoardBut_13_clicked()
     str.remove(str.length()-1, 1);
     ui->lineEditFind->setText(str);
 }
+
+
+
+//Кнопка "Информация"
+void MainWindow::on_pushButtonInfo_clicked()
+{
+    ui->widgetMobile->setVisible(false);
+    ui->widgetInternet->setVisible(false);
+    ui->widgetEMoney->setVisible(false);
+    ui->widgetGames->setVisible(false);
+    ui->widgetGKH->setVisible(false);
+    ui->widgetTaxi->setVisible(false);
+    ui->widgetInfo->setVisible(true);
+}
+//
+
+
+
+//Кнопка "Главная" в информации
+void MainWindow::on_pushButtonMain_clicked()
+{
+    ui->widgetMobile->setVisible(true);
+    ui->widgetInternet->setVisible(false);
+    ui->widgetEMoney->setVisible(false);
+    ui->widgetGames->setVisible(false);
+    ui->widgetGKH->setVisible(false);
+    ui->widgetTaxi->setVisible(false);
+    ui->widgetInfo->setVisible(false);
+    ui->pushButtonMobile->setStyleSheet("border-radius: 1px;background-color: rgb(7, 116, 187);color: #ffffff");
+    ui->pushButtonInternet->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonEMoney->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGames->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGKH->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonTaxi->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+}
+//
+
+
+
+//Кнопка "Главная" на клавиатуре
+void MainWindow::on_pushButtonMainKeyBoard_clicked()
+{
+    ui->widgetMobile->setVisible(true);
+    ui->widgetInfoLang->setVisible(true);
+    ui->widgetInternet->setVisible(false);
+    ui->widgetEMoney->setVisible(false);
+    ui->widgetGames->setVisible(false);
+    ui->widgetGKH->setVisible(false);
+    ui->widgetTaxi->setVisible(false);
+    ui->widgetInfo->setVisible(false);
+    ui->widget->setVisible(false);
+    ui->widgetInfoLang->setVisible(true);
+
+    ui->pushButtonMobile->setStyleSheet("border-radius: 1px;background-color: rgb(7, 116, 187);color: #ffffff");
+    ui->pushButtonInternet->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonEMoney->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGames->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonGKH->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+    ui->pushButtonTaxi->setStyleSheet("border-radius: 1px;background-color: #eb510f;color: #ffffff");
+
+    ui->widgetFind->setGeometry(100, 10, 411, 71);
+    ui->lineEditFind->setGeometry(59, 19, 341, 41);
+}
+//
+
+
+
+//Кнопка "Далее" на клавиатуре (она же "Поиск")
+void MainWindow::on_pushButtonNext_clicked()
+{
+    QString buf = ui->lineEditFind->text();
+    if (buf == "@@@Support@@@"){
+        DialogSupport *wndSup = new DialogSupport (this);
+        ui->lineEditFind->clear();
+        wndSup->exec();
+    }
+}
+//

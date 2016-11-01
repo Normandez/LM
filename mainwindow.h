@@ -21,12 +21,6 @@ public:
     int shiftKey;
 
 private slots:
-    void on_pushButton_52_clicked();
-
-    void on_pbFind_clicked();
-
-    void on_pushButton_105_clicked();
-
     void on_pushButtonUKR_clicked();
 
     void on_pushButtonRUS_clicked();
@@ -36,8 +30,6 @@ private slots:
     void on_pushButtonKyivstarMob_clicked();
 
     void on_pushButtonKievstarInet_clicked();
-
-    void on_pushButtonFind_clicked();
 
     void on_pushButtonMobile_clicked();
 
@@ -65,7 +57,7 @@ private slots:
 
     void on_KeyBoardBut_51_released();
 
-    void on_LogoBut_clicked();
+    //void on_LogoBut_clicked();
 
     void on_KeyBoardBut_1_clicked();
 
@@ -164,6 +156,42 @@ private slots:
     void on_KeyBoardBut_52_clicked();
 
     void on_KeyBoardBut_13_clicked();
+
+    void on_pushButtonVodafoneMob_clicked();
+
+    void on_pushButtonMTSMob_clicked();
+
+    void on_pushButtonLifecellMob_clicked();
+
+    void on_pushButtonGoodLineMob_clicked();
+
+    void on_pushButtonSimfortourMob_clicked();
+
+    void on_pushButtonIntertelecomMob_clicked();
+
+    void on_pushButtonPeoplenetMob_clicked();
+
+    void on_pushButtonMaxnetMob_clicked();
+
+    void on_pushButtonGlobalsimMob_clicked();
+
+    void on_pushButtonTeletieMob_clicked();
+
+    void on_pushButtonNewtoneMob_clicked();
+
+    void on_pushButtonTravelsimMob_clicked();
+
+    void on_pushButtonAltitelMob_clicked();
+
+    void on_pushButtonAltowoip_clicked();
+
+    void on_pushButtonInfo_clicked();
+
+    void on_pushButtonMain_clicked();
+
+    void on_pushButtonMainKeyBoard_clicked();
+
+    void on_pushButtonNext_clicked();
 
 private:
     Ui::MainWindow *ui;

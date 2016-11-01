@@ -34,5 +34,45 @@
         <file>NicUAIcon.jpg</file>
         <file>TenetIcon.jpg</file>
         <file>SipnetIcon.jpg</file>
+        <file>DarnizaIcon.jpg</file>
+        <file>DobrobutIcon.jpg</file>
+        <file>DomKomIcon.png</file>
+        <file>EverestIcon.jpg</file>
+        <file>GivcIcon.png</file>
+        <file>HerzIcon.gif</file>
+        <file>KharkovVodokanalIcon.png</file>
+        <file>KievEnergoIcon.png</file>
+        <file>KievgazIcon.gif</file>
+        <file>OdessaoblenergoIcon.jpg</file>
+        <file>UkrPaysIcon.png</file>
+        <file>VodokanalZPIcon.jpg</file>
+        <file>ZPGazIcon.jpg</file>
+        <file>11x11Icon.jpg</file>
+        <file>101xpIcon.png</file>
+        <file>AllodsIcon.jpg</file>
+        <file>ArchAgeIcon.png</file>
+        <file>CarnageIcon.png</file>
+        <file>GalacticaIcon.png</file>
+        <file>MyLandsIcon.png</file>
+        <file>RazrushiteliIcon.jpg</file>
+        <file>StallkerOnlineIcon.png</file>
+        <file>SteamIcon.jpg</file>
+        <file>TankiOnlineIcon.png</file>
+        <file>VKIcon.jpg</file>
+        <file>WarfaceIcon.png</file>
+        <file>WargamingIcon.png</file>
+        <file>979KievTaxiIcon.png</file>
+        <file>KolobokTaxi.jpg</file>
+        <file>NavigatorTaxiIcon.gif</file>
+        <file>PatriotTaxiIcon.png</file>
+        <file>RedTaxiIcon.png</file>
+        <file>SvoeTaxiIcon.jpg</file>
+        <file>TaxiVirazhIcon.png</file>
+        <file>BitcoinIcon.png</file>
+        <file>GlobalMoneyIcon.jpg</file>
+        <file>SkypeIcon.png</file>
+        <file>WalletOneIcon.png</file>
+        <file>WebMoneyIcon.jpg</file>
+        <file>YandexMoneyIcon.png</file>
     </qresource>
 </RCC>

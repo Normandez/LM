@@ -12,10 +12,14 @@ class DialogNumPad : public QDialog
     Q_OBJECT
 private:
     short numOfDigets = 0;      //Учет количества цифр номера (без +38)
+    short lang = 0;     //0 -- UKR, 1 -- RUS, 2 -- ENG
+    QPixmap picture;        //Картинка услуги
 
 public:
-    explicit DialogNumPad(QWidget *parent = 0);
+    explicit DialogNumPad(QWidget *parent, short language, QPixmap pic);
     void ChkLenghChar ();
+    void SetLanguage ();
+    void SetPicture ();
     ~DialogNumPad();
 
 private slots:
