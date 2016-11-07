@@ -193,6 +193,116 @@ private slots:
 
     void on_pushButtonNext_clicked();
 
+    void on_pushButtonSipNet_clicked();
+
+    void on_pushButton1GBHost_clicked();
+
+    void on_pushButtonBatyevkaNet_clicked();
+
+    void on_pushButtonDiaNet_clicked();
+
+    void on_pushButtonDikiySadISP_clicked();
+
+    void on_pushButtonFormatNet_clicked();
+
+    void on_pushButtonFreeHostUA_clicked();
+
+    void on_pushButtonGTSNet_clicked();
+
+    void on_pushButtonGreenNet_clicked();
+
+    void on_pushButtonInfomirNet_clicked();
+
+    void on_pushButtonKichkasNet_clicked();
+
+    void on_pushButtonMegaStyleISP_clicked();
+
+    void on_pushButtonNicUANet_clicked();
+
+    void on_pushButtonTeNet_clicked();
+
+    void on_LogoBut_clicked();
+
+    void on_pushButtonBitcoin_clicked();
+
+    void on_pushButtonGlobalMoney_clicked();
+
+    void on_pushButtonSkype_clicked();
+
+    void on_pushButtonWallatOne_clicked();
+
+    void on_pushButtonWebMoney_clicked();
+
+    void on_pushButtonYandexMoney_clicked();
+
+    void on_pushButtonDarniza1_clicked();
+
+    void on_pushButtonDobrobut_clicked();
+
+    void on_pushButtonDomKom_clicked();
+
+    void on_pushButtonEverest_clicked();
+
+    void on_pushButtonGIOZ_clicked();
+
+    void on_pushButtonHerz_clicked();
+
+    void on_pushButtonKievEnergo_clicked();
+
+    void on_pushButtonKievGaz_clicked();
+
+    void on_pushButtonOdessOblEnergo_clicked();
+
+    void on_pushButtonUkrPays_clicked();
+
+    void on_pushButtonVodokanalKharkov_clicked();
+
+    void on_pushButtonVodokanalZP_clicked();
+
+    void on_pushButtonZaporozhGaz_clicked();
+
+    void on_pushButton101XP_clicked();
+
+    void on_pushButton11x11Football_clicked();
+
+    void on_pushButtonAllods_clicked();
+
+    void on_pushButtonArcheAge_clicked();
+
+    void on_pushButtonCarnage_clicked();
+
+    void on_pushButtonGalactika_clicked();
+
+    void on_pushButtonMyLands_clicked();
+
+    void on_pushButtonRazrushiteli_clicked();
+
+    void on_pushButtonStallkerOnline_clicked();
+
+    void on_pushButtonSteam_clicked();
+
+    void on_pushButtonTankiOnline_clicked();
+
+    void on_pushButtonVK_clicked();
+
+    void on_pushButtonWarFace_clicked();
+
+    void on_pushButtonWargaming_clicked();
+
+    void on_pushButtonTaxi979Kiev_clicked();
+
+    void on_pushButtonTaxiKolobok_clicked();
+
+    void on_pushButtonTaxiNavigator_clicked();
+
+    void on_pushButtonTaxiPatriot_clicked();
+
+    void on_pushButtonTaxiRed_clicked();
+
+    void on_pushButtonTaxiSvoeTaxi_clicked();
+
+    void on_pushButtonTaxiVirazh_clicked();
+
 private:
     Ui::MainWindow *ui;
     short lang = 0;     //0 -- UKR, 1 -- RUS, 2 -- ENG

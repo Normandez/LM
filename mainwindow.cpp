@@ -50,14 +50,6 @@ void MainWindow::on_pushButtonKyivstarMob_clicked()
 }
 //
 
-//Кнопка "Домашний интернет Киевстар"
-void MainWindow::on_pushButtonKievstarInet_clicked()
-{
-    Keyboard *wnd = new Keyboard (this);
-    wnd->exec();
-}
-//
-
 
 
 //Кнопка "Водафон моб"
@@ -1458,3 +1450,341 @@ void MainWindow::on_pushButtonNext_clicked()
     }
 }
 //
+
+//Кнопка "Домашний интернет Киевстар"
+void MainWindow::on_pushButtonKievstarInet_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonKievstarInet->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+//
+
+void MainWindow::on_pushButtonSipNet_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonSipNet->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButton1GBHost_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButton1GBHost->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonBatyevkaNet_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonBatyevkaNet->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonDiaNet_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonDiaNet->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonDikiySadISP_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonDikiySadISP->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonFormatNet_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonFormatNet->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonFreeHostUA_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonFreeHostUA->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonGTSNet_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonGTSNet->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonGreenNet_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonGreenNet->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonInfomirNet_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonInfomirNet->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonKichkasNet_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonKichkasNet->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonMegaStyleISP_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonMegaStyleISP->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonNicUANet_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonNicUANet->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonTeNet_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonTeNet->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_LogoBut_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->LogoBut->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonBitcoin_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonBitcoin->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonGlobalMoney_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonGlobalMoney->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonSkype_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonSkype->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonWallatOne_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonWallatOne->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonWebMoney_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonWebMoney->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonYandexMoney_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonYandexMoney->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonDarniza1_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonDarniza1->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonDobrobut_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonDobrobut->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonDomKom_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonDomKom->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonEverest_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonEverest->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonGIOZ_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonGIOZ->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonHerz_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonHerz->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonKievEnergo_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonKievEnergo->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonKievGaz_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonKievGaz->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonOdessOblEnergo_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonOdessOblEnergo->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonUkrPays_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonUkrPays->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonVodokanalKharkov_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonVodokanalKharkov->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonVodokanalZP_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonVodokanalZP->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonZaporozhGaz_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonZaporozhGaz->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButton101XP_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButton101XP->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButton11x11Football_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButton11x11Football->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonAllods_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonAllods->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonArcheAge_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonArcheAge->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonCarnage_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonCarnage->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonGalactika_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonGalactika->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonMyLands_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonMyLands->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonRazrushiteli_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonRazrushiteli->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonStallkerOnline_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonStallkerOnline->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonSteam_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonSteam->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonTankiOnline_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonTankiOnline->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonVK_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonVK->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonWarFace_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonWarFace->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonWargaming_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonWargaming->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonTaxi979Kiev_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonTaxi979Kiev->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonTaxiKolobok_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonTaxiKolobok->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonTaxiNavigator_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonTaxiNavigator->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonTaxiPatriot_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonTaxiPatriot->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonTaxiRed_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonTaxiRed->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonTaxiSvoeTaxi_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonTaxiSvoeTaxi->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}
+
+void MainWindow::on_pushButtonTaxiVirazh_clicked()
+{
+    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonTaxiVirazh->icon().pixmap(250,250));
+    wndKeyBoard->exec();
+}

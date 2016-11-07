@@ -1,8 +1,9 @@
 #include "keyboard.h"
 #include "ui_keyboard.h"
 #include <QDebug>
+#include "payment.h"
 
-Keyboard::Keyboard(QWidget *parent) :
+Keyboard::Keyboard(QWidget *parent, short language, QPixmap pic) :
     QDialog(parent),
     ui(new Ui::Keyboard)
 {
@@ -10,6 +11,14 @@ Keyboard::Keyboard(QWidget *parent) :
     lang = 1;
     capslock = 0;
     specSymbol = 0;
+
+    langOfUI = language;
+    SetLanguage();
+
+    picture = pic;
+    SetPicture ();
+
+    ui->pushButtonNext->hide();
 }
 
 Keyboard::~Keyboard()
@@ -948,3 +957,55 @@ void Keyboard::on_pushButtonMain_clicked()
     close();
 }
 //
+
+//Локализация
+void Keyboard::SetLanguage()
+{
+    if (langOfUI == 0)      //UKR
+    {
+        ui->label->setText("Введіть дані авторизації:");
+        ui->pushButtonNext->setText("ДАЛІ  >");
+        ui->pushButtonMain->setText("ГОЛОВНА");
+        ui->pushButtonBack->setText("<  НАЗАД");
+    }
+
+    if (langOfUI == 1)      //RUS
+    {
+        ui->label->setText("Введите данные авторизации:");
+        ui->pushButtonNext->setText("ДАЛЕЕ  >");
+        ui->pushButtonMain->setText("ГЛАВНАЯ");
+        ui->pushButtonBack->setText("<  НАЗАД");
+    }
+
+    if (langOfUI == 2)      //ENG
+    {
+        ui->label->setText("Enter the authorization data:");
+        ui->pushButtonNext->setText("NEXT  >");
+        ui->pushButtonMain->setText("MAIN");
+        ui->pushButtonBack->setText("<  BACK");
+    }
+}
+//
+
+
+
+//Установка картинки
+void Keyboard::SetPicture ()
+{
+    ui->label_2->setPixmap(picture);
+}
+//
+
+void Keyboard::on_pushButtonNext_clicked()
+{
+    Payment *wnd = new Payment (this, langOfUI, picture, ui->editBox->text());
+    wnd->show();
+}
+
+void Keyboard::on_editBox_textChanged(const QString &arg1)
+{
+    if(arg1.length() > 0)
+        ui->pushButtonNext->show();
+    else
+        ui->pushButtonNext->hide();
+}

@@ -13,6 +13,12 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWidget{
+background-color: rgb(227, 227, 227);
+
+}</string>
+  </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QWidget" name="widgetFind" native="true">
     <property name="geometry">
@@ -1333,14 +1339,6 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
       </size>
      </property>
     </widget>
-    <zorder>pushButtonTaxiVirazh</zorder>
-    <zorder>pushButtonTaxiNavigator</zorder>
-    <zorder>pushButtonTaxiSvoeTaxi</zorder>
-    <zorder>pushButtonTaxiRed</zorder>
-    <zorder>pushButtonTaxi979Kiev</zorder>
-    <zorder>pushButtonTaxiPatriot</zorder>
-    <zorder>pushButtonTaxiKolobok</zorder>
-    <zorder>widgetGames</zorder>
    </widget>
    <widget class="QWidget" name="widgetGames" native="true">
     <property name="geometry">
@@ -1834,21 +1832,6 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
       </size>
      </property>
     </widget>
-    <zorder>pushButtonTankiOnline</zorder>
-    <zorder>pushButtonCarnage</zorder>
-    <zorder>pushButtonSteam</zorder>
-    <zorder>pushButtonVK</zorder>
-    <zorder>pushButtonStallkerOnline</zorder>
-    <zorder>pushButton101XP</zorder>
-    <zorder>pushButtonRazrushiteli</zorder>
-    <zorder>pushButtonAllods</zorder>
-    <zorder>pushButton11x11Football</zorder>
-    <zorder>pushButtonMyLands</zorder>
-    <zorder>pushButtonWargaming</zorder>
-    <zorder>pushButtonArcheAge</zorder>
-    <zorder>pushButtonGalactika</zorder>
-    <zorder>widgetGKH</zorder>
-    <zorder>pushButtonWarFace</zorder>
    </widget>
    <widget class="QWidget" name="widgetGKH" native="true">
     <property name="geometry">
@@ -2308,28 +2291,14 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
       </size>
      </property>
     </widget>
-    <zorder>pushButtonKievEnergo</zorder>
-    <zorder>pushButtonKievGaz</zorder>
-    <zorder>pushButtonVodokanalZP</zorder>
-    <zorder>pushButtonZaporozhGaz</zorder>
-    <zorder>pushButtonDobrobut</zorder>
-    <zorder>pushButtonGIOZ</zorder>
-    <zorder>pushButtonVodokanalKharkov</zorder>
-    <zorder>pushButtonHerz</zorder>
-    <zorder>pushButtonOdessOblEnergo</zorder>
-    <zorder>pushButtonDomKom</zorder>
-    <zorder>pushButtonEverest</zorder>
-    <zorder>widgetInternet</zorder>
-    <zorder>pushButtonUkrPays</zorder>
-    <zorder>pushButtonDarniza1</zorder>
    </widget>
    <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>80</y>
+      <y>140</y>
       <width>721</width>
-      <height>401</height>
+      <height>341</height>
      </rect>
     </property>
     <property name="font">
@@ -4591,6 +4560,22 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
       </size>
      </property>
     </widget>
+    <zorder>pushButton1GBHost</zorder>
+    <zorder>pushButtonKievstarInet</zorder>
+    <zorder>pushButtonFormatNet</zorder>
+    <zorder>pushButtonMegaStyleISP</zorder>
+    <zorder>pushButtonGreenNet</zorder>
+    <zorder>pushButtonNicUANet</zorder>
+    <zorder>pushButtonDiaNet</zorder>
+    <zorder>pushButtonTeNet</zorder>
+    <zorder>pushButtonBatyevkaNet</zorder>
+    <zorder>pushButtonKichkasNet</zorder>
+    <zorder>pushButtonGTSNet</zorder>
+    <zorder>pushButtonFreeHostUA</zorder>
+    <zorder>pushButtonInfomirNet</zorder>
+    <zorder>pushButtonDikiySadISP</zorder>
+    <zorder>pushButtonSipNet</zorder>
+    <zorder>widget</zorder>
    </widget>
    <widget class="QWidget" name="widgetInfo" native="true">
     <property name="geometry">
@@ -4836,6 +4821,7 @@ font-weight: 600;
      </property>
     </widget>
    </widget>
+   <zorder>widgetInfo</zorder>
    <zorder>widgetFind</zorder>
    <zorder>widgetInfoLang</zorder>
    <zorder>widgetMobile</zorder>
@@ -4852,7 +4838,6 @@ font-weight: 600;
    <zorder>LogoBut</zorder>
    <zorder>widget</zorder>
    <zorder>widgetInternet</zorder>
-   <zorder>widgetInfo</zorder>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>

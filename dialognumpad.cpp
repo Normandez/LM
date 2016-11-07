@@ -1,7 +1,7 @@
 #include "dialognumpad.h"
 #include "ui_dialognumpad.h"
 #include <QMessageBox>
-
+#include <payment.h>
 
 
 DialogNumPad::DialogNumPad(QWidget *parent, short language, QPixmap pic) :
@@ -581,3 +581,9 @@ void DialogNumPad::on_pushButtonMain_clicked()
 }
 //
 
+
+void DialogNumPad::on_pushButtonNext_clicked()
+{
+    Payment *wnd = new Payment (this, lang, picture, ui->lineEditNumber->text());
+    wnd->exec();
+}

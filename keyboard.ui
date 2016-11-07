@@ -1644,9 +1644,9 @@ border-color: rgb(214, 214, 214);
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>160</y>
+      <y>158</y>
       <width>50</width>
-      <height>48</height>
+      <height>50</height>
      </rect>
     </property>
     <property name="font">

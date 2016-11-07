@@ -5,6 +5,7 @@
 #include <qstring.h>
 #include <QDebug>
 
+
 namespace Ui {
 class Keyboard;
 }
@@ -14,11 +15,14 @@ class Keyboard : public QDialog
     Q_OBJECT
 
 public:
-    explicit Keyboard(QWidget *parent = 0);
+    explicit Keyboard(QWidget *parent, short language, QPixmap pic);
     ~Keyboard();
     int lang;
     int capslock;
     int specSymbol;
+    short langOfUI = 0;     //0 -- UKR, 1 -- RUS, 2 -- ENG
+    QPixmap picture;        //Картинка услуги
+
 private slots:
     void on_pushButton_53_clicked();
 
@@ -136,12 +140,20 @@ private slots:
 
     void on_pushButtonMain_clicked();
 
+    void on_pushButtonNext_clicked();
+
+    void on_editBox_textChanged(const QString &arg1);
+
 private:
     Ui::Keyboard *ui;
 
     void changeKeyLang();
 
     void Caps();
+
+    void SetLanguage();
+
+    void SetPicture();
 };
 
 #endif // KEYBOARD_H

@@ -16,17 +16,20 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     dialognumpad.cpp \
     dialogsupport.cpp \
-    keyboard.cpp
+    keyboard.cpp \
+    payment.cpp
 
 HEADERS  += mainwindow.h \
     dialognumpad.h \
     dialogsupport.h \
-    keyboard.h
+    keyboard.h \
+    payment.h
 
 FORMS    += mainwindow.ui \
     dialognumpad.ui \
     dialogsupport.ui \
-    keyboard.ui
+    keyboard.ui \
+    payment.ui
 
 RESOURCES += \
     resource.qrc
