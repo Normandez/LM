@@ -10,6 +10,8 @@ DialogNumPad::DialogNumPad(QWidget *parent, short language, QPixmap pic) :
 {
     ui->setupUi(this);
 
+    ui->pushButtonNext->setVisible(false);
+
     lang = language;
     SetLanguage();
 
@@ -73,6 +75,8 @@ inline void DialogNumPad::ChkLenghChar()
     {
         ui->lineEditNumber->setText(ui->lineEditNumber->text() + "-");
     }
+
+    if (ui->lineEditNumber->text().length() == 19) ui->pushButtonNext->setVisible(true);
 }
 //
 
@@ -81,7 +85,12 @@ inline void DialogNumPad::ChkLenghChar()
 //Кнопка "1"
 void DialogNumPad::on_pushButton1_clicked()
 {
-    if (ui->lineEditNumber->text().length() == 19) return;  //Ограничение ввода после макс. длины
+    if (ui->lineEditNumber->text().length() == 19)      //Ограничение ввода после макс. длины
+    {
+        ui->pushButtonNext->setVisible(true);
+        return;
+    }
+        else ui->pushButtonNext->setVisible(false);
 
     //Для ввода цифр в скобках
     if (numOfDigets < 3)
@@ -129,7 +138,12 @@ void DialogNumPad::on_pushButton1_clicked()
 //Кнопка "2"
 void DialogNumPad::on_pushButton2_clicked()
 {
-    if (ui->lineEditNumber->text().length() == 19) return;
+    if (ui->lineEditNumber->text().length() == 19)
+    {
+        ui->pushButtonNext->setVisible(true);
+        return;
+    }
+        else ui->pushButtonNext->setVisible(false);
 
     if (numOfDigets < 3)
     {
@@ -172,7 +186,12 @@ void DialogNumPad::on_pushButton2_clicked()
 //Кнопка "3"
 void DialogNumPad::on_pushButton3_clicked()
 {
-    if (ui->lineEditNumber->text().length() == 19) return;
+    if (ui->lineEditNumber->text().length() == 19)
+    {
+        ui->pushButtonNext->setVisible(true);
+        return;
+    }
+        else ui->pushButtonNext->setVisible(false);
 
     if (numOfDigets < 3)
     {
@@ -215,7 +234,12 @@ void DialogNumPad::on_pushButton3_clicked()
 //Кнопка "4"
 void DialogNumPad::on_pushButton4_clicked()
 {
-    if (ui->lineEditNumber->text().length() == 19) return;
+    if (ui->lineEditNumber->text().length() == 19)
+    {
+        ui->pushButtonNext->setVisible(true);
+        return;
+    }
+        else ui->pushButtonNext->setVisible(false);
 
     if (numOfDigets < 3)
     {
@@ -258,7 +282,12 @@ void DialogNumPad::on_pushButton4_clicked()
 //Кнопка "5"
 void DialogNumPad::on_pushButton5_clicked()
 {
-    if (ui->lineEditNumber->text().length() == 19) return;
+    if (ui->lineEditNumber->text().length() == 19)
+    {
+        ui->pushButtonNext->setVisible(true);
+        return;
+    }
+        else ui->pushButtonNext->setVisible(false);
 
     if (numOfDigets < 3)
     {
@@ -301,7 +330,12 @@ void DialogNumPad::on_pushButton5_clicked()
 //Кнопка "6"
 void DialogNumPad::on_pushButton6_clicked()
 {
-    if (ui->lineEditNumber->text().length() == 19) return;
+    if (ui->lineEditNumber->text().length() == 19)
+    {
+        ui->pushButtonNext->setVisible(true);
+        return;
+    }
+        else ui->pushButtonNext->setVisible(false);
 
     if (numOfDigets < 3)
     {
@@ -344,7 +378,12 @@ void DialogNumPad::on_pushButton6_clicked()
 //Кнопка "7"
 void DialogNumPad::on_pushButton7_clicked()
 {
-    if (ui->lineEditNumber->text().length() == 19) return;
+    if (ui->lineEditNumber->text().length() == 19)
+    {
+        ui->pushButtonNext->setVisible(true);
+        return;
+    }
+        else ui->pushButtonNext->setVisible(false);
 
     if (numOfDigets < 3)
     {
@@ -387,7 +426,12 @@ void DialogNumPad::on_pushButton7_clicked()
 //Кнопка "8"
 void DialogNumPad::on_pushButton8_clicked()
 {
-    if (ui->lineEditNumber->text().length() == 19) return;
+    if (ui->lineEditNumber->text().length() == 19)
+    {
+        ui->pushButtonNext->setVisible(true);
+        return;
+    }
+        else ui->pushButtonNext->setVisible(false);
 
     if (numOfDigets < 3)
     {
@@ -430,7 +474,12 @@ void DialogNumPad::on_pushButton8_clicked()
 //Кнопка "9"
 void DialogNumPad::on_pushButton9_clicked()
 {
-    if (ui->lineEditNumber->text().length() == 19) return;
+    if (ui->lineEditNumber->text().length() == 19)
+    {
+        ui->pushButtonNext->setVisible(true);
+        return;
+    }
+        else ui->pushButtonNext->setVisible(false);
 
     if (numOfDigets < 3)
     {
@@ -473,7 +522,12 @@ void DialogNumPad::on_pushButton9_clicked()
 //Кнопка "0"
 void DialogNumPad::on_pushButton0_clicked()
 {
-    if (ui->lineEditNumber->text().length() == 19) return;
+    if (ui->lineEditNumber->text().length() == 19)
+    {
+        ui->pushButtonNext->setVisible(true);
+        return;
+    }
+        else ui->pushButtonNext->setVisible(false);
 
     if (numOfDigets < 3)
     {
@@ -517,6 +571,8 @@ void DialogNumPad::on_pushButton0_clicked()
 void DialogNumPad::on_pushButtonDelete_clicked()
 {
     if (numOfDigets == 0) return;       //Ограничение затирания стандартных символов в начале
+
+    ui->pushButtonNext->setVisible(false);
 
     QString str, buf = " ";
     str = ui->lineEditNumber->text();

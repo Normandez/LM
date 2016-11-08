@@ -74,5 +74,7 @@
         <file>WalletOneIcon.png</file>
         <file>WebMoneyIcon.jpg</file>
         <file>YandexMoneyIcon.png</file>
+        <file>MoneyCatchIcon.jpg</file>
+        <file>MoneyCatchIcon.png</file>
     </qresource>
 </RCC>

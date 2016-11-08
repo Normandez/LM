@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>720</width>
-    <height>470</height>
+    <height>480</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -2296,9 +2296,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>140</y>
+      <y>80</y>
       <width>721</width>
-      <height>341</height>
+      <height>391</height>
      </rect>
     </property>
     <property name="font">
@@ -2320,9 +2320,9 @@ background-color:rgb(214, 214, 214);
      <property name="geometry">
       <rect>
        <x>40</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2347,9 +2347,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>340</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2374,9 +2374,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>160</y>
-       <width>41</width>
-       <height>41</height>
+       <y>176</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2401,9 +2401,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>440</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2427,10 +2427,10 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <widget class="QPushButton" name="KeyBoardBut_55">
      <property name="geometry">
       <rect>
-       <x>640</x>
-       <y>210</y>
+       <x>646</x>
+       <y>228</y>
        <width>41</width>
-       <height>33</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="font">
@@ -2455,9 +2455,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>640</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2487,8 +2487,8 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>140</x>
-       <y>210</y>
-       <width>391</width>
+       <y>228</y>
+       <width>401</width>
        <height>41</height>
       </rect>
      </property>
@@ -2513,8 +2513,8 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <widget class="QWidget" name="widgetPic_3" native="true">
      <property name="geometry">
       <rect>
-       <x>540</x>
-       <y>242</y>
+       <x>542</x>
+       <y>260</y>
        <width>41</width>
        <height>8</height>
       </rect>
@@ -2537,9 +2537,9 @@ border-color: rgb(214, 214, 214);
      <property name="geometry">
       <rect>
        <x>640</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2564,9 +2564,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2591,9 +2591,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>240</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2617,8 +2617,8 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <widget class="QWidget" name="widgetPic_5" native="true">
      <property name="geometry">
       <rect>
-       <x>640</x>
-       <y>242</y>
+       <x>646</x>
+       <y>260</y>
        <width>41</width>
        <height>8</height>
       </rect>
@@ -2641,9 +2641,9 @@ border-color: rgb(214, 214, 214);
      <property name="geometry">
       <rect>
        <x>190</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2668,9 +2668,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2695,9 +2695,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>640</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2722,9 +2722,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>40</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2749,9 +2749,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>190</x>
-       <y>160</y>
-       <width>41</width>
-       <height>41</height>
+       <y>176</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2776,9 +2776,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>190</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2803,9 +2803,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>140</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2830,9 +2830,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>490</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2857,9 +2857,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>40</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2883,10 +2883,10 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <widget class="QPushButton" name="KeyBoardBut_51">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>210</y>
-       <width>91</width>
-       <height>33</height>
+       <x>39</x>
+       <y>222</y>
+       <width>101</width>
+       <height>41</height>
       </rect>
      </property>
      <property name="font">
@@ -2911,9 +2911,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>240</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2938,9 +2938,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>140</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2965,9 +2965,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>340</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -2992,9 +2992,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>140</x>
-       <y>160</y>
-       <width>41</width>
-       <height>41</height>
+       <y>176</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3019,9 +3019,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>490</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3046,9 +3046,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3073,8 +3073,8 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>40</x>
-       <y>192</y>
-       <width>91</width>
+       <y>216</y>
+       <width>101</width>
        <height>8</height>
       </rect>
      </property>
@@ -3096,9 +3096,9 @@ border-color: rgb(214, 214, 214);
      <property name="geometry">
       <rect>
        <x>540</x>
-       <y>160</y>
-       <width>41</width>
-       <height>41</height>
+       <y>176</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3123,9 +3123,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3150,9 +3150,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>240</x>
-       <y>160</y>
-       <width>41</width>
-       <height>41</height>
+       <y>176</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3177,9 +3177,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>240</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3204,9 +3204,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>540</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3231,9 +3231,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>40</x>
-       <y>160</y>
-       <width>91</width>
-       <height>33</height>
+       <y>176</y>
+       <width>101</width>
+       <height>41</height>
       </rect>
      </property>
      <property name="font">
@@ -3257,8 +3257,8 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <widget class="QPushButton" name="KeyBoardBut_53">
      <property name="geometry">
       <rect>
-       <x>540</x>
-       <y>210</y>
+       <x>542</x>
+       <y>228</y>
        <width>41</width>
        <height>33</height>
       </rect>
@@ -3285,9 +3285,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3311,8 +3311,8 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <widget class="QWidget" name="widgetPic_4" native="true">
      <property name="geometry">
       <rect>
-       <x>590</x>
-       <y>242</y>
+       <x>594</x>
+       <y>260</y>
        <width>41</width>
        <height>8</height>
       </rect>
@@ -3334,9 +3334,9 @@ background-color:rgb(194, 0, 0);
      <property name="geometry">
       <rect>
        <x>490</x>
-       <y>160</y>
-       <width>41</width>
-       <height>41</height>
+       <y>176</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3360,8 +3360,8 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <widget class="QPushButton" name="KeyBoardBut_54">
      <property name="geometry">
       <rect>
-       <x>590</x>
-       <y>210</y>
+       <x>594</x>
+       <y>228</y>
        <width>41</width>
        <height>33</height>
       </rect>
@@ -3388,9 +3388,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>440</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3415,9 +3415,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>390</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3442,9 +3442,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>540</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3469,9 +3469,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>540</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3496,9 +3496,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>390</x>
-       <y>160</y>
-       <width>41</width>
-       <height>41</height>
+       <y>176</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3523,9 +3523,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>440</x>
-       <y>160</y>
-       <width>41</width>
-       <height>41</height>
+       <y>176</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3550,9 +3550,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>390</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3577,9 +3577,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>590</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3604,9 +3604,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>390</x>
-       <y>110</y>
-       <width>41</width>
-       <height>41</height>
+       <y>126</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3631,9 +3631,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>590</x>
-       <y>160</y>
-       <width>91</width>
-       <height>33</height>
+       <y>176</y>
+       <width>101</width>
+       <height>46</height>
       </rect>
      </property>
      <property name="font">
@@ -3658,9 +3658,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>340</x>
-       <y>160</y>
-       <width>41</width>
-       <height>41</height>
+       <y>176</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3685,9 +3685,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>440</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3712,9 +3712,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>340</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3739,9 +3739,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>490</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3766,9 +3766,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>140</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3793,9 +3793,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>590</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3820,9 +3820,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>590</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3847,9 +3847,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>10</y>
-       <width>41</width>
-       <height>41</height>
+       <y>23</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3874,9 +3874,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
      <property name="geometry">
       <rect>
        <x>190</x>
-       <y>60</y>
-       <width>41</width>
-       <height>41</height>
+       <y>74</y>
+       <width>51</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -3900,9 +3900,9 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <widget class="QWidget" name="widgetPic_2" native="true">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>242</y>
-       <width>91</width>
+       <x>39</x>
+       <y>262</y>
+       <width>101</width>
        <height>8</height>
       </rect>
      </property>
@@ -3923,9 +3923,9 @@ border-color: rgb(214, 214, 214);
     <widget class="QWidget" name="widgetPic_6" native="true">
      <property name="geometry">
       <rect>
-       <x>590</x>
-       <y>192</y>
-       <width>91</width>
+       <x>592</x>
+       <y>220</y>
+       <width>101</width>
        <height>8</height>
       </rect>
      </property>
@@ -3946,8 +3946,8 @@ border-color: rgb(214, 214, 214);
     <widget class="QPushButton" name="pushButtonMainKeyBoard">
      <property name="geometry">
       <rect>
-       <x>274</x>
-       <y>298</y>
+       <x>281</x>
+       <y>291</y>
        <width>131</width>
        <height>81</height>
       </rect>
@@ -3976,9 +3976,9 @@ font-weight: 600;
     <widget class="QPushButton" name="pushButtonNext">
      <property name="geometry">
       <rect>
-       <x>550</x>
-       <y>296</y>
-       <width>131</width>
+       <x>555</x>
+       <y>290</y>
+       <width>135</width>
        <height>81</height>
       </rect>
      </property>
@@ -4576,6 +4576,7 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
     <zorder>pushButtonDikiySadISP</zorder>
     <zorder>pushButtonSipNet</zorder>
     <zorder>widget</zorder>
+    <zorder>widget</zorder>
    </widget>
    <widget class="QWidget" name="widgetInfo" native="true">
     <property name="geometry">
@@ -4821,7 +4822,6 @@ font-weight: 600;
      </property>
     </widget>
    </widget>
-   <zorder>widgetInfo</zorder>
    <zorder>widgetFind</zorder>
    <zorder>widgetInfoLang</zorder>
    <zorder>widgetMobile</zorder>
@@ -4836,8 +4836,9 @@ font-weight: 600;
    <zorder>widgetGames</zorder>
    <zorder>widgetGKH</zorder>
    <zorder>LogoBut</zorder>
-   <zorder>widget</zorder>
    <zorder>widgetInternet</zorder>
+   <zorder>widget</zorder>
+   <zorder>widgetInfo</zorder>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>

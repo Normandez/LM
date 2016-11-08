@@ -125,15 +125,15 @@ void Payment::SetLanguage()
         ui->tableWidget->horizontalHeaderItem(0)->setText("Payment");
         ui->tableWidget->horizontalHeaderItem(1)->setText("Comission");
 
-        ui->tableWidget->item(0,0)->setText("less 2 uah");
-        ui->tableWidget->item(0,1)->setText("0.99 uah");
-        ui->tableWidget->item(1,0)->setText("2 - 4 uah");
-        ui->tableWidget->item(1,1)->setText("1,99 uah");
-        ui->tableWidget->item(2,0)->setText("4 - 51 uah");
-        ui->tableWidget->item(2,1)->setText("3.25 uah");
-        ui->tableWidget->item(3,0)->setText("51 - 100 uah");
+        ui->tableWidget->item(0,0)->setText("less 2 UAH");
+        ui->tableWidget->item(0,1)->setText("0.99 UAH");
+        ui->tableWidget->item(1,0)->setText("2 - 4 UAH");
+        ui->tableWidget->item(1,1)->setText("1,99 UAH");
+        ui->tableWidget->item(2,0)->setText("4 - 51 UAH");
+        ui->tableWidget->item(2,1)->setText("3.25 UAH");
+        ui->tableWidget->item(3,0)->setText("51 - 100 UAH");
         ui->tableWidget->item(3,1)->setText("6.5%");
-        ui->tableWidget->item(4,0)->setText("more 100 uah");
+        ui->tableWidget->item(4,0)->setText("more 100 UAH");
         ui->tableWidget->item(4,1)->setText("5.5%");
     }
 }

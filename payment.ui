@@ -54,7 +54,7 @@ font-weight: 600;
      <x>240</x>
      <y>10</y>
      <width>451</width>
-     <height>80</height>
+     <height>101</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -85,7 +85,7 @@ border-radius: 1em;
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>40</y>
+      <y>50</y>
       <width>441</width>
       <height>31</height>
      </rect>
@@ -105,6 +105,9 @@ color: #eb510f;
      <string>+38 (097) 34-35-368</string>
     </property>
    </widget>
+   <zorder>label_5</zorder>
+   <zorder>LabelUserData</zorder>
+   <zorder>widget_8</zorder>
   </widget>
   <widget class="QPushButton" name="pushButtonNext">
    <property name="geometry">
@@ -170,7 +173,7 @@ font-weight: 600;
      <x>90</x>
      <y>10</y>
      <width>141</width>
-     <height>81</height>
+     <height>101</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -185,7 +188,7 @@ border-radius: 1em;
       <x>10</x>
       <y>10</y>
       <width>121</width>
-      <height>61</height>
+      <height>81</height>
      </rect>
     </property>
     <property name="text">
@@ -199,6 +202,7 @@ border-radius: 1em;
     </property>
    </widget>
    <zorder>label_4</zorder>
+   <zorder>widget_8</zorder>
    <zorder>widget_8</zorder>
   </widget>
   <widget class="QWidget" name="widget_2" native="true">
@@ -437,9 +441,25 @@ color: white;
      </property>
     </widget>
    </widget>
-   <zorder>label_2</zorder>
-   <zorder>widget_6</zorder>
-   <zorder>widget_7</zorder>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>44</y>
+      <width>161</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resource.qrc">:/new/icons/MoneyCatchIcon.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
   </widget>
   <widget class="QWidget" name="widget_3" native="true">
    <property name="geometry">
@@ -527,10 +547,6 @@ border-radius: 1em;
      </property>
     </column>
    </widget>
-   <zorder>tableWidget</zorder>
-   <zorder>widget_7</zorder>
-   <zorder>widget_7</zorder>
-   <zorder>widget_7</zorder>
   </widget>
   <widget class="QLabel" name="label_13">
    <property name="geometry">
@@ -560,12 +576,13 @@ border-radius: 1em;
      <height>241</height>
     </rect>
    </property>
+   <zorder>widget_8</zorder>
   </widget>
   <widget class="QWidget" name="widget_8" native="true">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>0</y>
+     <x>-10</x>
+     <y>-10</y>
      <width>741</width>
      <height>481</height>
     </rect>

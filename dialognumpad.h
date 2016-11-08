@@ -43,11 +43,7 @@ private slots:
 
     void on_pushButton0_clicked();
 
-    void on_pushButton_clicked();
-
     void on_pushButtonDelete_clicked();
-
-    void on_pushButton_56_clicked();
 
     void on_pushButtonBack_clicked();
 

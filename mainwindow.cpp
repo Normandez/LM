@@ -1434,6 +1434,8 @@ void MainWindow::on_pushButtonMainKeyBoard_clicked()
 
     ui->widgetFind->setGeometry(100, 10, 411, 71);
     ui->lineEditFind->setGeometry(59, 19, 341, 41);
+
+    ui->lineEditFind->clear();
 }
 //
 
