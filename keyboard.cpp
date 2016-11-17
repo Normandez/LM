@@ -8,6 +8,7 @@ Keyboard::Keyboard(QWidget *parent, short language, QPixmap pic) :
     ui(new Ui::Keyboard)
 {
     ui->setupUi(this);
+
     lang = 1;
     capslock = 0;
     specSymbol = 0;

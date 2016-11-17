@@ -48,13 +48,13 @@ font-weight: 600;
    <property name="midLineWidth">
     <number>0</number>
    </property>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pushButtonAddPaper">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>220</y>
-      <width>101</width>
-      <height>23</height>
+      <width>111</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -75,7 +75,7 @@ color: rgb(0, 0, 0);
       <x>280</x>
       <y>220</y>
       <width>101</width>
-      <height>23</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -87,15 +87,15 @@ color: rgb(0, 0, 0);
 }</string>
     </property>
     <property name="text">
-     <string>Зняти балансу</string>
+     <string>Зняття балансу</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>20</x>
       <y>260</y>
-      <width>201</width>
+      <width>171</width>
       <height>23</height>
      </rect>
     </property>
@@ -116,8 +116,8 @@ color: rgb(0, 0, 0);
      <rect>
       <x>150</x>
       <y>220</y>
-      <width>101</width>
-      <height>23</height>
+      <width>111</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -136,7 +136,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>21</x>
-      <y>10</y>
+      <y>120</y>
       <width>371</width>
       <height>16</height>
      </rect>
@@ -156,6 +156,11 @@ color: black;
      </item>
      <item>
       <widget class="QLabel" name="label_9">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+color: rgb(0, 0, 176)
+}</string>
+       </property>
        <property name="text">
         <string>4587.00 UAH</string>
        </property>
@@ -166,132 +171,8 @@ color: black;
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>21</x>
-      <y>40</y>
-      <width>371</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_2">
-     <item>
-      <widget class="QLabel" name="label_3">
-       <property name="styleSheet">
-        <string notr="true">QLabel{
-color: black;
-}</string>
-       </property>
-       <property name="text">
-        <string>Інтернет-з'єднання:</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_10">
-       <property name="text">
-        <string>Працює</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>21</x>
-      <y>69</y>
-      <width>371</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_3">
-     <item>
-      <widget class="QLabel" name="label_4">
-       <property name="styleSheet">
-        <string notr="true">QLabel{
-color: black;
-}</string>
-       </property>
-       <property name="text">
-        <string>Друк чеків:</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_11">
-       <property name="text">
-        <string>Працює</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>21</x>
-      <y>97</y>
-      <width>371</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_4">
-     <item>
-      <widget class="QLabel" name="label_5">
-       <property name="styleSheet">
-        <string notr="true">QLabel{
-color: black;
-}</string>
-       </property>
-       <property name="text">
-        <string>Wi-Fi:</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_12">
-       <property name="text">
-        <string>Не працює</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>21</x>
-      <y>124</y>
-      <width>371</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_5">
-     <item>
-      <widget class="QLabel" name="label_6">
-       <property name="styleSheet">
-        <string notr="true">QLabel{
-color: black;
-}</string>
-       </property>
-       <property name="text">
-        <string>Приймач готівки:</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_13">
-       <property name="text">
-        <string>Працює</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>21</x>
-      <y>150</y>
+      <x>20</x>
+      <y>140</y>
       <width>371</width>
       <height>28</height>
      </rect>
@@ -312,6 +193,11 @@ color: black;
      </item>
      <item>
       <widget class="QLabel" name="label_14">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+color: rgb(0, 0, 176)
+}</string>
+       </property>
        <property name="text">
         <string>354</string>
        </property>
@@ -322,8 +208,8 @@ color: black;
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>21</x>
-      <y>180</y>
+      <x>20</x>
+      <y>170</y>
       <width>371</width>
       <height>28</height>
      </rect>
@@ -344,8 +230,178 @@ color: black;
      </item>
      <item>
       <widget class="QLabel" name="label_15">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+color: rgb(0, 0, 176)
+}</string>
+       </property>
        <property name="text">
         <string>350</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButtonExit">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>260</y>
+      <width>171</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 8px;
+color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Вихід</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>371</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+color: black;
+}</string>
+       </property>
+       <property name="text">
+        <string>Wi-Fi:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_12">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+color: rgb(236, 0, 0)
+}</string>
+       </property>
+       <property name="text">
+        <string>Не працює</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>37</y>
+      <width>371</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+color: black;
+}</string>
+       </property>
+       <property name="text">
+        <string>Приймач готівки:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+color:rgb(0, 122, 59)
+}</string>
+       </property>
+       <property name="text">
+        <string>Працює</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>63</y>
+      <width>371</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+color: black;
+}</string>
+       </property>
+       <property name="text">
+        <string>Друк чеків:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_11">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+color:rgb(0, 122, 59)
+}</string>
+       </property>
+       <property name="text">
+        <string>Працює</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>93</y>
+      <width>371</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+color: black;
+}</string>
+       </property>
+       <property name="text">
+        <string>Інтернет-з'єднання:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_10">
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+color:rgb(0, 122, 59)
+}</string>
+       </property>
+       <property name="text">
+        <string>Працює</string>
        </property>
       </widget>
      </item>
@@ -372,6 +428,10 @@ color: black;
     <string>Інформація про стан апарату</string>
    </property>
   </widget>
+  <zorder>frame</zorder>
+  <zorder>label</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_3</zorder>
  </widget>
  <resources/>
  <connections/>

@@ -10,6 +10,18 @@
     <height>480</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>720</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>720</width>
+    <height>480</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -2298,7 +2310,7 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
       <x>0</x>
       <y>80</y>
       <width>721</width>
-      <height>391</height>
+      <height>401</height>
      </rect>
     </property>
     <property name="font">
@@ -4560,23 +4572,6 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
       </size>
      </property>
     </widget>
-    <zorder>pushButton1GBHost</zorder>
-    <zorder>pushButtonKievstarInet</zorder>
-    <zorder>pushButtonFormatNet</zorder>
-    <zorder>pushButtonMegaStyleISP</zorder>
-    <zorder>pushButtonGreenNet</zorder>
-    <zorder>pushButtonNicUANet</zorder>
-    <zorder>pushButtonDiaNet</zorder>
-    <zorder>pushButtonTeNet</zorder>
-    <zorder>pushButtonBatyevkaNet</zorder>
-    <zorder>pushButtonKichkasNet</zorder>
-    <zorder>pushButtonGTSNet</zorder>
-    <zorder>pushButtonFreeHostUA</zorder>
-    <zorder>pushButtonInfomirNet</zorder>
-    <zorder>pushButtonDikiySadISP</zorder>
-    <zorder>pushButtonSipNet</zorder>
-    <zorder>widget</zorder>
-    <zorder>widget</zorder>
    </widget>
    <widget class="QWidget" name="widgetInfo" native="true">
     <property name="geometry">

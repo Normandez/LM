@@ -76,5 +76,8 @@
         <file>YandexMoneyIcon.png</file>
         <file>MoneyCatchIcon.jpg</file>
         <file>MoneyCatchIcon.png</file>
+        <file>ComputingIcon.png</file>
+        <file>SuccessIcon.png</file>
+        <file>GetMoneyIcon.png</file>
     </qresource>
 </RCC>

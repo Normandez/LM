@@ -7,8 +7,20 @@
     <x>0</x>
     <y>0</y>
     <width>720</width>
-    <height>470</height>
+    <height>480</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>720</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>720</width>
+    <height>480</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
@@ -105,9 +117,6 @@ color: #eb510f;
      <string>+38 (097) 34-35-368</string>
     </property>
    </widget>
-   <zorder>label_5</zorder>
-   <zorder>LabelUserData</zorder>
-   <zorder>widget_8</zorder>
   </widget>
   <widget class="QPushButton" name="pushButtonNext">
    <property name="geometry">
@@ -201,9 +210,6 @@ border-radius: 1em;
      <bool>true</bool>
     </property>
    </widget>
-   <zorder>label_4</zorder>
-   <zorder>widget_8</zorder>
-   <zorder>widget_8</zorder>
   </widget>
   <widget class="QWidget" name="widget_2" native="true">
    <property name="geometry">
@@ -396,6 +402,25 @@ border-radius: 1em;
      <string/>
     </property>
    </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>10</y>
+      <width>231</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resource.qrc">:/new/icons/MoneyCatchIcon.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
    <widget class="QWidget" name="widget_6" native="true">
     <property name="geometry">
      <rect>
@@ -441,25 +466,6 @@ color: white;
      </property>
     </widget>
    </widget>
-   <widget class="QLabel" name="label_9">
-    <property name="geometry">
-     <rect>
-      <x>22</x>
-      <y>44</y>
-      <width>161</width>
-      <height>121</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="resource.qrc">:/new/icons/MoneyCatchIcon.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
   </widget>
   <widget class="QWidget" name="widget_3" native="true">
    <property name="geometry">
@@ -503,7 +509,7 @@ border-radius: 1em;
      <bool>false</bool>
     </property>
     <attribute name="horizontalHeaderVisible">
-     <bool>true</bool>
+     <bool>false</bool>
     </attribute>
     <attribute name="verticalHeaderVisible">
      <bool>false</bool>
@@ -576,7 +582,6 @@ border-radius: 1em;
      <height>241</height>
     </rect>
    </property>
-   <zorder>widget_8</zorder>
   </widget>
   <widget class="QWidget" name="widget_8" native="true">
    <property name="geometry">

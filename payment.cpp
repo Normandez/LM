@@ -6,6 +6,7 @@ Payment::Payment(QWidget *parent, short language, QPixmap pic, QString UserData)
     ui(new Ui::Payment)
 {
     ui->setupUi(this);
+
     lang = language;
     picture = pic;
     UserDataPrinyatye = UserData;

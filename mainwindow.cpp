@@ -1445,7 +1445,7 @@ void MainWindow::on_pushButtonMainKeyBoard_clicked()
 void MainWindow::on_pushButtonNext_clicked()
 {
     QString buf = ui->lineEditFind->text();
-    if (buf == "@@@Support@@@"){
+    if (buf == "//support"){
         DialogSupport *wndSup = new DialogSupport (this);
         ui->lineEditFind->clear();
         wndSup->exec();
@@ -1547,8 +1547,8 @@ void MainWindow::on_pushButtonTeNet_clicked()
 
 void MainWindow::on_LogoBut_clicked()
 {
-    Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->LogoBut->icon().pixmap(250,250));
-    wndKeyBoard->exec();
+    DialogSupport *wndSupport = new DialogSupport (this);
+    wndSupport->exec();
 }
 
 void MainWindow::on_pushButtonBitcoin_clicked()
