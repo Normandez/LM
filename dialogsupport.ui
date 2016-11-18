@@ -10,6 +10,18 @@
     <height>354</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>424</width>
+    <height>354</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>424</width>
+    <height>354</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
@@ -57,10 +69,18 @@ font-weight: 600;
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
 background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
-font: 75 10pt &quot;MS Shell Dlg 2&quot;;
 border-radius: 8px;
 color: rgb(0, 0, 0);
 }</string>
@@ -78,10 +98,15 @@ color: rgb(0, 0, 0);
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
 background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
-font: 75 10pt &quot;MS Shell Dlg 2&quot;;
 border-radius: 8px;
 color: rgb(0, 0, 0);
 }</string>
@@ -99,16 +124,24 @@ color: rgb(0, 0, 0);
       <height>23</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
 background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
-font: 75 10pt &quot;MS Shell Dlg 2&quot;;
 border-radius: 8px;
-color: rgb(0, 0, 0);
+color: rgb(217, 58, 9);
 }</string>
     </property>
     <property name="text">
-     <string>Детальні налаштування</string>
+     <string>ВИМКНУТИ</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
@@ -120,10 +153,18 @@ color: rgb(0, 0, 0);
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
 background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
-font: 75 10pt &quot;MS Shell Dlg 2&quot;;
 border-radius: 8px;
 color: rgb(0, 0, 0);
 }</string>
@@ -251,10 +292,18 @@ color: rgb(0, 0, 176)
       <height>23</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
 background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
-font: 75 10pt &quot;MS Shell Dlg 2&quot;;
 border-radius: 8px;
 color: rgb(0, 0, 0);
 }</string>
@@ -428,10 +477,6 @@ color:rgb(0, 122, 59)
     <string>Інформація про стан апарату</string>
    </property>
   </widget>
-  <zorder>frame</zorder>
-  <zorder>label</zorder>
-  <zorder>label_10</zorder>
-  <zorder>label_3</zorder>
  </widget>
  <resources/>
  <connections/>

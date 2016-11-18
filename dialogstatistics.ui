@@ -6,20 +6,52 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1177</width>
-    <height>341</height>
+    <width>361</width>
+    <height>400</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>361</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>361</width>
+    <height>400</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QWidget" name="widgetSuccess" native="true">
+  <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>30</y>
-     <width>1157</width>
-     <height>301</height>
+     <x>130</x>
+     <y>0</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Статистика</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>301</width>
+     <height>261</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -30,59 +62,11 @@ border-radius: 1em;
 font-weight: 600;
 }</string>
    </property>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>299</x>
-      <y>10</y>
-      <width>99</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{
-color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>Стан балансу:</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>463</x>
-      <y>10</y>
-      <width>75</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>4587.00 UAH</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>18</x>
-      <y>4</y>
+      <x>30</x>
+      <y>12</y>
       <width>145</width>
       <height>35</height>
      </rect>
@@ -107,8 +91,8 @@ color: black;
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>234</x>
-      <y>22</y>
+      <x>246</x>
+      <y>30</y>
       <width>23</width>
       <height>16</height>
      </rect>
@@ -127,37 +111,11 @@ color: black;
      <string>354</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_9">
-    <property name="geometry">
-     <rect>
-      <x>18</x>
-      <y>50</y>
-      <width>145</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{
-color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>Кількість вдалих
-фінансових операцій:</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
-      <x>234</x>
-      <y>68</y>
+      <x>246</x>
+      <y>76</y>
       <width>23</width>
       <height>16</height>
      </rect>
@@ -176,37 +134,37 @@ color: black;
      <string>350</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_11">
+   <widget class="QLabel" name="label_14">
     <property name="geometry">
      <rect>
-      <x>18</x>
-      <y>92</y>
-      <width>149</width>
-      <height>35</height>
+      <x>258</x>
+      <y>160</y>
+      <width>16</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel{
-color: black;
+     <string notr="true">QLabel{color: black;
 }</string>
     </property>
     <property name="text">
-     <string>Кількість скасованих
-фінансових операцій:</string>
+     <string>1</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
     </property>
    </widget>
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>246</x>
-      <y>108</y>
+      <x>258</x>
+      <y>116</y>
       <width>16</width>
       <height>16</height>
      </rect>
@@ -231,8 +189,8 @@ color: black;
    <widget class="QLabel" name="label_13">
     <property name="geometry">
      <rect>
-      <x>18</x>
-      <y>134</y>
+      <x>30</x>
+      <y>142</y>
       <width>217</width>
       <height>35</height>
      </rect>
@@ -254,38 +212,12 @@ color: black;
 з технічних причин:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_14">
+   <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>246</x>
-      <y>152</y>
-      <width>16</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>1</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::AutoText</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_15">
-    <property name="geometry">
-     <rect>
-      <x>298</x>
-      <y>86</y>
-      <width>139</width>
+      <x>30</x>
+      <y>100</y>
+      <width>149</width>
       <height>35</height>
      </rect>
     </property>
@@ -302,15 +234,68 @@ color: black;
 }</string>
     </property>
     <property name="text">
-     <string>Середня сума однієї
-фінансової операції:</string>
+     <string>Кількість скасованих
+фінансових операцій:</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>58</y>
+      <width>145</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Кількість вдалих
+фінансових операцій:</string>
+    </property>
+   </widget>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_14</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_13</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_9</zorder>
+   <zorder>widget_4</zorder>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>301</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color:rgb(214, 214, 214);
+color: rgb(255, 255, 255);
+border-radius: 1em;
+font-weight: 600;
+}</string>
+   </property>
    <widget class="QLabel" name="label_16">
     <property name="geometry">
      <rect>
-      <x>474</x>
-      <y>106</y>
+      <x>201</x>
+      <y>116</y>
       <width>59</width>
       <height>16</height>
      </rect>
@@ -329,37 +314,11 @@ color: black;
      <string>13.11 UAH</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_17">
+   <widget class="QLabel" name="label_24">
     <property name="geometry">
      <rect>
-      <x>578</x>
-      <y>6</y>
-      <width>161</width>
-      <height>33</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{
-color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>Загальна вартість
-комісії:</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_18">
-    <property name="geometry">
-     <rect>
-      <x>742</x>
-      <y>22</y>
+      <x>189</x>
+      <y>68</y>
       <width>75</width>
       <height>16</height>
      </rect>
@@ -375,112 +334,14 @@ color: black;
 }</string>
     </property>
     <property name="text">
-     <string>1376.10 UAH</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_19">
-    <property name="geometry">
-     <rect>
-      <x>578</x>
-      <y>46</y>
-      <width>161</width>
-      <height>33</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{
-color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>Середня вартість
-комісії:</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_20">
-    <property name="geometry">
-     <rect>
-      <x>762</x>
-      <y>62</y>
-      <width>51</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>3.93 UAH</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_21">
-    <property name="geometry">
-     <rect>
-      <x>778</x>
-      <y>104</y>
-      <width>33</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>7.8 %</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_22">
-    <property name="geometry">
-     <rect>
-      <x>578</x>
-      <y>88</y>
-      <width>171</width>
-      <height>33</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{
-color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>Середній комісійний
-відсоток:</string>
+     <string>3210.90 UAH</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_23">
     <property name="geometry">
      <rect>
-      <x>298</x>
-      <y>42</y>
+      <x>25</x>
+      <y>52</y>
       <width>161</width>
       <height>33</height>
      </rect>
@@ -502,11 +363,11 @@ color: black;
 переведених коштів:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_24">
+   <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>462</x>
-      <y>58</y>
+      <x>190</x>
+      <y>20</y>
       <width>75</width>
       <height>16</height>
      </rect>
@@ -522,15 +383,114 @@ color: black;
 }</string>
     </property>
     <property name="text">
-     <string>3210.90 UAH</string>
+     <string>4587.00 UAH</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_25">
+   <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>856</x>
-      <y>4</y>
-      <width>207</width>
+      <x>26</x>
+      <y>20</y>
+      <width>99</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Стан балансу:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>96</y>
+      <width>139</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Середня сума однієї
+фінансової операції:</string>
+    </property>
+   </widget>
+   <zorder>label_16</zorder>
+   <zorder>label_24</zorder>
+   <zorder>label_23</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_15</zorder>
+   <zorder>widget_3</zorder>
+  </widget>
+  <widget class="QWidget" name="widget_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>301</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color:rgb(214, 214, 214);
+color: rgb(255, 255, 255);
+border-radius: 1em;
+font-weight: 600;
+}</string>
+   </property>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>236</x>
+      <y>122</y>
+      <width>33</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>7.8 %</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>24</y>
+      <width>161</width>
       <height>33</height>
      </rect>
     </property>
@@ -547,16 +507,42 @@ color: black;
 }</string>
     </property>
     <property name="text">
-     <string>Найпопулярніша група послуг
-за останні:</string>
+     <string>Загальна вартість
+комісії:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_26">
+   <widget class="QLabel" name="label_19">
     <property name="geometry">
      <rect>
-      <x>874</x>
+      <x>36</x>
+      <y>64</y>
+      <width>161</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Середня вартість
+комісії:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
       <y>40</y>
-      <width>69</width>
+      <width>75</width>
       <height>16</height>
      </rect>
     </property>
@@ -571,15 +557,15 @@ color: black;
 }</string>
     </property>
     <property name="text">
-     <string>- 24 години</string>
+     <string>1376.10 UAH</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_27">
+   <widget class="QLabel" name="label_20">
     <property name="geometry">
      <rect>
-      <x>874</x>
-      <y>54</y>
-      <width>69</width>
+      <x>220</x>
+      <y>80</y>
+      <width>51</width>
       <height>16</height>
      </rect>
     </property>
@@ -594,38 +580,59 @@ color: black;
 }</string>
     </property>
     <property name="text">
-     <string>- тиждень</string>
+     <string>3.93 UAH</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_28">
+   <widget class="QLabel" name="label_22">
     <property name="geometry">
      <rect>
-      <x>874</x>
-      <y>68</y>
-      <width>69</width>
-      <height>16</height>
+      <x>36</x>
+      <y>106</y>
+      <width>171</width>
+      <height>33</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
+     <string notr="true">QLabel{
+color: black;
 }</string>
     </property>
     <property name="text">
-     <string>- місяць</string>
+     <string>Середній комісійний
+відсоток:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_29">
+  </widget>
+  <widget class="QWidget" name="widget_4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>301</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color:rgb(214, 214, 214);
+color: rgb(255, 255, 255);
+border-radius: 1em;
+font-weight: 600;
+}</string>
+   </property>
+   <widget class="QLabel" name="label_75">
     <property name="geometry">
      <rect>
-      <x>874</x>
-      <y>82</y>
-      <width>69</width>
+      <x>180</x>
+      <y>210</y>
+      <width>115</width>
       <height>16</height>
      </rect>
     </property>
@@ -640,15 +647,15 @@ color: black;
 }</string>
     </property>
     <property name="text">
-     <string>- рік</string>
+     <string>458.7 UAH (10%)</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_30">
+   <widget class="QLabel" name="label_72">
     <property name="geometry">
      <rect>
-      <x>1028</x>
-      <y>40</y>
-      <width>69</width>
+      <x>180</x>
+      <y>196</y>
+      <width>115</width>
       <height>16</height>
      </rect>
     </property>
@@ -663,83 +670,14 @@ color: black;
 }</string>
     </property>
     <property name="text">
-     <string>Моб. зв.</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_31">
-    <property name="geometry">
-     <rect>
-      <x>1028</x>
-      <y>54</y>
-      <width>69</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>Ігри</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_32">
-    <property name="geometry">
-     <rect>
-      <x>1028</x>
-      <y>68</y>
-      <width>81</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>Електр. гроші</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_33">
-    <property name="geometry">
-     <rect>
-      <x>1028</x>
-      <y>82</y>
-      <width>81</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>Моб. зв.</string>
+     <string>688.05 UAH (15%)</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_63">
     <property name="geometry">
      <rect>
-      <x>878</x>
-      <y>146</y>
+      <x>28</x>
+      <y>154</y>
       <width>117</width>
       <height>16</height>
      </rect>
@@ -758,34 +696,11 @@ color: black;
      <string>- Мобільний зв'язок</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_64">
-    <property name="geometry">
-     <rect>
-      <x>878</x>
-      <y>188</y>
-      <width>69</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>- Ігри</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_65">
     <property name="geometry">
      <rect>
-      <x>860</x>
-      <y>110</y>
+      <x>10</x>
+      <y>118</y>
       <width>203</width>
       <height>33</height>
      </rect>
@@ -807,11 +722,34 @@ color: black;
 послуг:</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_64">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>196</y>
+      <width>69</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>- Ігри</string>
+    </property>
+   </widget>
    <widget class="QLabel" name="label_66">
     <property name="geometry">
      <rect>
-      <x>878</x>
-      <y>174</y>
+      <x>28</x>
+      <y>182</y>
       <width>111</width>
       <height>16</height>
      </rect>
@@ -830,80 +768,11 @@ color: black;
      <string>- Електронні гроші</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_67">
-    <property name="geometry">
-     <rect>
-      <x>878</x>
-      <y>160</y>
-      <width>135</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>- Інтернет і телефонія</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_68">
-    <property name="geometry">
-     <rect>
-      <x>878</x>
-      <y>202</y>
-      <width>69</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>- ЖКГ</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_69">
-    <property name="geometry">
-     <rect>
-      <x>878</x>
-      <y>216</y>
-      <width>69</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>- Таксі</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_70">
     <property name="geometry">
      <rect>
-      <x>1030</x>
-      <y>160</y>
+      <x>180</x>
+      <y>168</y>
       <width>113</width>
       <height>16</height>
      </rect>
@@ -922,12 +791,12 @@ color: black;
      <string>917.40 UAH (20%)</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_71">
+   <widget class="QLabel" name="label_33">
     <property name="geometry">
      <rect>
-      <x>1030</x>
-      <y>146</y>
-      <width>117</width>
+      <x>178</x>
+      <y>90</y>
+      <width>81</width>
       <height>16</height>
      </rect>
     </property>
@@ -942,15 +811,15 @@ color: black;
 }</string>
     </property>
     <property name="text">
-     <string>1834.80 UAH (40%)</string>
+     <string>Моб. зв.</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_72">
+   <widget class="QLabel" name="label_31">
     <property name="geometry">
      <rect>
-      <x>1030</x>
-      <y>188</y>
-      <width>115</width>
+      <x>178</x>
+      <y>62</y>
+      <width>69</width>
       <height>16</height>
      </rect>
     </property>
@@ -965,37 +834,14 @@ color: black;
 }</string>
     </property>
     <property name="text">
-     <string>688.05 UAH (15%)</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_73">
-    <property name="geometry">
-     <rect>
-      <x>1030</x>
-      <y>216</y>
-      <width>115</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{color: black;
-}</string>
-    </property>
-    <property name="text">
-     <string>366.96 UAH (8%)</string>
+     <string>Ігри</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_74">
     <property name="geometry">
      <rect>
-      <x>1030</x>
-      <y>174</y>
+      <x>180</x>
+      <y>182</y>
       <width>111</width>
       <height>16</height>
      </rect>
@@ -1014,11 +860,11 @@ color: black;
      <string>321.09 UAH (7%)</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_75">
+   <widget class="QLabel" name="label_73">
     <property name="geometry">
      <rect>
-      <x>1030</x>
-      <y>202</y>
+      <x>180</x>
+      <y>224</y>
       <width>115</width>
       <height>16</height>
      </rect>
@@ -1034,186 +880,351 @@ color: black;
 }</string>
     </property>
     <property name="text">
-     <string>458.7 UAH (10%)</string>
+     <string>366.96 UAH (8%)</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButtonOK">
+   <widget class="QLabel" name="label_30">
     <property name="geometry">
      <rect>
-      <x>488</x>
-      <y>260</y>
-      <width>141</width>
-      <height>29</height>
+      <x>178</x>
+      <y>48</y>
+      <width>69</width>
+      <height>16</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton{
+     <string notr="true">QLabel{color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Моб. зв.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_67">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>168</y>
+      <width>135</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>- Інтернет і телефонія</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_29">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>90</y>
+      <width>69</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>- рік</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>48</y>
+      <width>69</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>- 24 години</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>62</y>
+      <width>69</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>- тиждень</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>6</x>
+      <y>12</y>
+      <width>207</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Найпопулярніша група послуг
+за останні:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_32">
+    <property name="geometry">
+     <rect>
+      <x>178</x>
+      <y>76</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Електр. гроші</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>76</y>
+      <width>69</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>- місяць</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_69">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>224</y>
+      <width>69</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>- Таксі</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_68">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>210</y>
+      <width>69</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>- ЖКГ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_71">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>154</y>
+      <width>117</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>1834.80 UAH (40%)</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOK">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>360</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
 background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
 font: 75 10pt &quot;MS Shell Dlg 2&quot;;
 border-radius: 8px;
 color: rgb(0, 0, 0);
 }</string>
-    </property>
-    <property name="text">
-     <string>OK</string>
-    </property>
-   </widget>
-   <zorder>label_5</zorder>
-   <zorder>label_6</zorder>
-   <zorder>label_7</zorder>
-   <zorder>label_8</zorder>
-   <zorder>label_9</zorder>
-   <zorder>label_10</zorder>
-   <zorder>label_11</zorder>
-   <zorder>label_12</zorder>
-   <zorder>label_13</zorder>
-   <zorder>label_14</zorder>
-   <zorder>label_15</zorder>
-   <zorder>label_16</zorder>
-   <zorder>label_17</zorder>
-   <zorder>label_18</zorder>
-   <zorder>label_19</zorder>
-   <zorder>label_20</zorder>
-   <zorder>label_21</zorder>
-   <zorder>label_22</zorder>
-   <zorder>label_23</zorder>
-   <zorder>label_24</zorder>
-   <zorder>label_25</zorder>
-   <zorder>label_26</zorder>
-   <zorder>label_27</zorder>
-   <zorder>label_28</zorder>
-   <zorder>label_29</zorder>
-   <zorder>label_30</zorder>
-   <zorder>label_31</zorder>
-   <zorder>label_32</zorder>
-   <zorder>label_33</zorder>
-   <zorder>label_63</zorder>
-   <zorder>label_64</zorder>
-   <zorder>label_65</zorder>
-   <zorder>label_66</zorder>
-   <zorder>label_67</zorder>
-   <zorder>label_68</zorder>
-   <zorder>label_69</zorder>
-   <zorder>label_70</zorder>
-   <zorder>label_71</zorder>
-   <zorder>label_72</zorder>
-   <zorder>label_73</zorder>
-   <zorder>label_74</zorder>
-   <zorder>label_75</zorder>
-   <zorder>pushButtonOK</zorder>
-   <zorder>groupBox</zorder>
-   <zorder>groupBox_2</zorder>
-  </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>522</x>
-     <y>0</y>
-     <width>101</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>12</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
    </property>
    <property name="text">
-    <string>Статистика</string>
+    <string>OK</string>
    </property>
   </widget>
-  <widget class="QGroupBox" name="groupBox">
+  <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>18</x>
-     <y>34</y>
-     <width>257</width>
-     <height>239</height>
+     <x>20</x>
+     <y>40</y>
+     <width>75</width>
+     <height>41</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">QGroupBox{ 
-border-color: rgb(255, 255, 255);
-}</string>
+   <property name="text">
+    <string>Баланс</string>
    </property>
-   <property name="title">
-    <string/>
-   </property>
-   <zorder>label_14</zorder>
-   <zorder>label_7</zorder>
-   <zorder>label_9</zorder>
-   <zorder>label_11</zorder>
-   <zorder>label_8</zorder>
-   <zorder>label_10</zorder>
-   <zorder>label_12</zorder>
-   <zorder>label_13</zorder>
   </widget>
-  <widget class="QGroupBox" name="groupBox_3">
+  <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>34</y>
-     <width>257</width>
-     <height>241</height>
+     <x>100</x>
+     <y>40</y>
+     <width>75</width>
+     <height>41</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">QGroupBox{ 
-border-color: rgb(255, 255, 255);
-}</string>
-   </property>
-   <property name="title">
-    <string/>
+   <property name="text">
+    <string>Операції</string>
    </property>
   </widget>
-  <widget class="QGroupBox" name="groupBox_4">
+  <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>578</x>
-     <y>34</y>
-     <width>257</width>
-     <height>241</height>
+     <x>180</x>
+     <y>40</y>
+     <width>75</width>
+     <height>41</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">QGroupBox{ 
-border-color: rgb(255, 255, 255);
-}</string>
-   </property>
-   <property name="title">
-    <string/>
+   <property name="text">
+    <string>Комісія</string>
    </property>
   </widget>
-  <widget class="QGroupBox" name="groupBox_5">
+  <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
-     <x>854</x>
-     <y>34</y>
-     <width>305</width>
-     <height>241</height>
+     <x>260</x>
+     <y>40</y>
+     <width>81</width>
+     <height>41</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">QGroupBox{ 
-border-color: rgb(255, 255, 255);
-}</string>
-   </property>
-   <property name="title">
-    <string/>
+   <property name="text">
+    <string>Популярність 
+ послуг</string>
    </property>
   </widget>
-  <zorder>widgetSuccess</zorder>
   <zorder>label_2</zorder>
-  <zorder>groupBox</zorder>
-  <zorder>label_7</zorder>
-  <zorder>groupBox_3</zorder>
-  <zorder>groupBox_4</zorder>
-  <zorder>groupBox_5</zorder>
+  <zorder>widget</zorder>
+  <zorder>widget_3</zorder>
+  <zorder>widget_4</zorder>
+  <zorder>pushButtonOK</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>widget_2</zorder>
  </widget>
- <resources>
-  <include location="resource.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

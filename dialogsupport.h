@@ -14,6 +14,7 @@ class DialogSupport : public QDialog
 public:
     explicit DialogSupport(QWidget *parent = 0);
     ~DialogSupport();
+    QWidget par;
 
 private slots:
     void on_pushButtonAddPaper_clicked();
@@ -23,6 +24,8 @@ private slots:
     void on_pushButton_4_clicked();
 
     void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
 
 private:
     Ui::DialogSupport *ui;

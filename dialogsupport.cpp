@@ -11,6 +11,7 @@ DialogSupport::DialogSupport(QWidget *parent) :
     ui(new Ui::DialogSupport)
 {
     ui->setupUi(this);
+    //par = parent;
 }
 
 
@@ -58,3 +59,8 @@ void DialogSupport::on_pushButton_2_clicked()
     wndGetMoney->exec();
 }
 //
+
+void DialogSupport::on_pushButton_3_clicked()
+{
+    this->parentWidget()->close();
+}
