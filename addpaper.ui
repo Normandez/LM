@@ -10,8 +10,20 @@
     <height>136</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>240</width>
+    <height>136</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>240</width>
+    <height>136</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Add Paper</string>
   </property>
   <widget class="QWidget" name="widget" native="true">
    <property name="geometry">

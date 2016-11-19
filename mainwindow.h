@@ -303,6 +303,22 @@ private slots:
 
     void on_pushButtonTaxiVirazh_clicked();
 
+    void on_pushButtonBack1_clicked();
+
+    void on_pushButtonBack2_clicked();
+
+    void on_pushButtonBack3_clicked();
+
+    void on_pushButtonKievstarInet_Find_clicked();
+
+    void on_pushButtonKyivstarMob_Find_clicked();
+
+    void on_pushButtonSteam_Find_clicked();
+
+    void on_pushButtonWebMoney_Find_clicked();
+
+    void on_pushButtonBack4_clicked();
+
 private:
     Ui::MainWindow *ui;
     short lang = 0;     //0 -- UKR, 1 -- RUS, 2 -- ENG

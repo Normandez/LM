@@ -3,6 +3,7 @@
 #include "dialogsupport.h"
 #include "keyboard.h"
 #include "ui_mainwindow.h"
+#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -31,6 +32,11 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->lineEditFind->installEventFilter(this);
     //изначально клавиатура скрыта
     ui->widget->hide();
+
+    ui->widgetFindResultSome->setVisible(false);
+    ui->widgetFindResultSteam->setVisible(false);
+    ui->widgetFindResultWebMoney->setVisible(false);
+    ui->widgetFindResultNone->setVisible(false);
 }
 
 
@@ -223,6 +229,7 @@ void MainWindow::changeKeyLang (){
     //UKR
     if (lang == 0){
         ui->labelFind->setText("Пошук послуги...");
+        ui->labelFindResultNone->setText("Пошук не дав результатів...");
         ui->pushButtonInfo->setText ("Інформація");
         ui->pushButtonMobile->setText ("Мобільний\nзв'язок");
         ui->pushButtonTaxi->setText ("Таксі");
@@ -232,12 +239,17 @@ void MainWindow::changeKeyLang (){
         ui->pushButtonGKH->setText("ЖКГ");
         ui->pushButtonNext->setText("ДАЛІ >");
         ui->pushButtonMainKeyBoard->setText("ГОЛОВНА");
+        ui->pushButtonBack1->setText("< НАЗАД");
+        ui->pushButtonBack2->setText("< НАЗАД");
+        ui->pushButtonBack3->setText("< НАЗАД");
+        ui->pushButtonBack4->setText("< НАЗАД");
     }
     //
 
     //RUS
     if (lang == 1){
         ui->labelFind->setText("Поиск услуги...");
+        ui->labelFindResultNone->setText("Поиск не дал результатов...");
         ui->pushButtonInfo->setText("Информация");
         ui->pushButtonMobile->setText("Мобильная\nсвязь");
         ui->pushButtonTaxi->setText("Такси");
@@ -247,12 +259,17 @@ void MainWindow::changeKeyLang (){
         ui->pushButtonGKH->setText("ЖКХ");
         ui->pushButtonNext->setText("ДАЛЕЕ >");
         ui->pushButtonMainKeyBoard->setText("ГЛАВНАЯ");
+        ui->pushButtonBack1->setText("< НАЗАД");
+        ui->pushButtonBack2->setText("< НАЗАД");
+        ui->pushButtonBack3->setText("< НАЗАД");
+        ui->pushButtonBack4->setText("< НАЗАД");
     }
     //
 
     //ENG
     if (lang == 2){
         ui->labelFind->setText("Services search...");
+        ui->labelFindResultNone->setText("Search has not given any results...");
         ui->pushButtonInfo->setText("Information");
         ui->pushButtonMobile->setText("Mobile\nconnection");
         ui->pushButtonTaxi->setText("Taxi");
@@ -262,6 +279,10 @@ void MainWindow::changeKeyLang (){
         ui->pushButtonGKH->setText("Housing");
         ui->pushButtonNext->setText("NEXT >");
         ui->pushButtonMainKeyBoard->setText("MAIN");
+        ui->pushButtonBack1->setText("< BACK");
+        ui->pushButtonBack2->setText("< BACK");
+        ui->pushButtonBack3->setText("< BACK");
+        ui->pushButtonBack4->setText("< BACK");
     }
     //
 }
@@ -1449,7 +1470,28 @@ void MainWindow::on_pushButtonNext_clicked()
         DialogSupport *wndSup = new DialogSupport (this);
         ui->lineEditFind->clear();
         wndSup->exec();
+        return;
     }
+
+    if (buf == "Steam" || buf == "steam" || buf == "стим" || buf == "Стим"){      //Стим
+        ui->widgetFindResultSteam->setVisible(true);
+        ui->lineEditFind->clear();
+        return;
+    }
+
+    if (buf == "WebMoney" || buf == "Web Money" || buf == "webmoney" || buf == "web money" || buf == "Webmoney" || buf == "Web money"){      //Веб Мани
+        ui->widgetFindResultWebMoney->setVisible(true);
+        ui->lineEditFind->clear();
+        return;
+    }
+
+    if (buf == "Киев" || buf == "киев" || buf == "Київ" || buf == "київ" || buf == "Киевстар" || buf == "Київстар" || buf == "киевстар" || buf == "киїівстар"){      //Киев...
+        ui->widgetFindResultSome->setVisible(true);
+        ui->lineEditFind->clear();
+        return;
+    }
+
+    ui->widgetFindResultNone->setVisible(true);     //Поиск не дал результатов
 }
 //
 
@@ -1790,3 +1832,75 @@ void MainWindow::on_pushButtonTaxiVirazh_clicked()
     Keyboard *wndKeyBoard = new Keyboard (this, lang, ui->pushButtonTaxiVirazh->icon().pixmap(250,250));
     wndKeyBoard->exec();
 }
+
+
+
+//Кнопка "Назад1"
+void MainWindow::on_pushButtonBack1_clicked()
+{
+    ui->widgetFindResultSteam->setVisible(false);
+}
+//
+
+
+
+//Кнопка "Назад2"
+void MainWindow::on_pushButtonBack2_clicked()
+{
+    ui->widgetFindResultWebMoney->setVisible(false);
+}
+//
+
+
+
+//Кнопка "Назад3"
+void MainWindow::on_pushButtonBack3_clicked()
+{
+    ui->widgetFindResultSome->setVisible(false);
+}
+//
+
+
+
+//Кнопка "Назад4"
+void MainWindow::on_pushButtonBack4_clicked()
+{
+    ui->widgetFindResultNone->setVisible(false);
+}
+//
+
+
+
+//Кнопка "Киевстар Интернет" на поиске
+void MainWindow::on_pushButtonKievstarInet_Find_clicked()
+{
+    on_pushButtonKievstarInet_clicked();
+}
+//
+
+
+
+//Кнопка "Киевстар Моб" на поиске
+void MainWindow::on_pushButtonKyivstarMob_Find_clicked()
+{
+    on_pushButtonKyivstarMob_clicked();
+}
+//
+
+
+
+//Кнопка "Стим" на поиске
+void MainWindow::on_pushButtonSteam_Find_clicked()
+{
+    on_pushButtonSteam_clicked();
+}
+//
+
+
+
+//Кнопка "Веб Мани" на поиске
+void MainWindow::on_pushButtonWebMoney_Find_clicked()
+{
+    on_pushButtonWebMoney_clicked();
+}
+//

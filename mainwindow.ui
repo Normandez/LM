@@ -23,13 +23,23 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Main Window</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/new/icons/TymeLogoIcon.png</normaloff>:/new/icons/TymeLogoIcon.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">QMainWidget{
 background-color: rgb(227, 227, 227);
 
 }</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>24</width>
+    <height>24</height>
+   </size>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QWidget" name="widgetFind" native="true">
@@ -3958,8 +3968,8 @@ border-color: rgb(214, 214, 214);
     <widget class="QPushButton" name="pushButtonMainKeyBoard">
      <property name="geometry">
       <rect>
-       <x>281</x>
-       <y>291</y>
+       <x>295</x>
+       <y>290</y>
        <width>131</width>
        <height>81</height>
       </rect>
@@ -3988,9 +3998,9 @@ font-weight: 600;
     <widget class="QPushButton" name="pushButtonNext">
      <property name="geometry">
       <rect>
-       <x>555</x>
+       <x>560</x>
        <y>290</y>
-       <width>135</width>
+       <width>131</width>
        <height>81</height>
       </rect>
      </property>
@@ -4016,6 +4026,426 @@ font-weight: 600;
       <string>ДАЛІ  &gt;</string>
      </property>
     </widget>
+    <widget class="QWidget" name="widgetFindResultSteam" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>721</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget{
+background-color:rgb(214, 214, 214);
+color: rgb(255, 255, 255);
+border-radius: 1em;
+}</string>
+     </property>
+     <widget class="QPushButton" name="pushButtonSteam_Find">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>111</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="resource.qrc">
+        <normaloff>:/new/icons/SteamIcon.jpg</normaloff>:/new/icons/SteamIcon.jpg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>100</width>
+        <height>100</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonBack1">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>290</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color: #eb510f;
+border: 3px solid white;
+color: rgb(255, 255, 255);
+border-radius: 1em;
+font-weight: 600;
+}
+    </string>
+      </property>
+      <property name="text">
+       <string>&lt;  НАЗАД</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widgetFindResultWebMoney" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>721</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget{
+background-color:rgb(214, 214, 214);
+color: rgb(255, 255, 255);
+border-radius: 1em;
+}</string>
+     </property>
+     <widget class="QPushButton" name="pushButtonWebMoney_Find">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>111</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="resource.qrc">
+        <normaloff>:/new/icons/WebMoneyIcon.jpg</normaloff>:/new/icons/WebMoneyIcon.jpg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>95</width>
+        <height>95</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonBack2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>290</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color: #eb510f;
+border: 3px solid white;
+color: rgb(255, 255, 255);
+border-radius: 1em;
+font-weight: 600;
+}
+    </string>
+      </property>
+      <property name="text">
+       <string>&lt;  НАЗАД</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widgetFindResultSome" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>721</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget{
+background-color:rgb(214, 214, 214);
+color: rgb(255, 255, 255);
+border-radius: 1em;
+}</string>
+     </property>
+     <widget class="QPushButton" name="pushButtonKyivstarMob_Find">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>111</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="resource.qrc">
+        <normaloff>:/new/icons/kyivstarIcon.jpg</normaloff>:/new/icons/kyivstarIcon.jpg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>80</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonKievstarInet_Find">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>10</y>
+        <width>111</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0, stop:0.367232 rgba(218, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="resource.qrc">
+        <normaloff>:/new/icons/KievstarInternet.jpg</normaloff>:/new/icons/KievstarInternet.jpg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonBack3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>290</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color: #eb510f;
+border: 3px solid white;
+color: rgb(255, 255, 255);
+border-radius: 1em;
+font-weight: 600;
+}
+    </string>
+      </property>
+      <property name="text">
+       <string>&lt;  НАЗАД</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widgetFindResultNone" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>721</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget{
+background-color:rgb(214, 214, 214);
+color: rgb(255, 255, 255);
+border-radius: 1em;
+}</string>
+     </property>
+     <widget class="QPushButton" name="pushButtonBack4">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>290</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color: #eb510f;
+border: 3px solid white;
+color: rgb(255, 255, 255);
+border-radius: 1em;
+font-weight: 600;
+}
+    </string>
+      </property>
+      <property name="text">
+       <string>&lt;  НАЗАД</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelFindResultNone">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>160</y>
+        <width>391</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+color: rgb(63, 63, 63);
+}</string>
+      </property>
+      <property name="text">
+       <string>Пошук не дав результатів...</string>
+      </property>
+     </widget>
+    </widget>
+    <zorder>pushButtonMainKeyBoard</zorder>
+    <zorder>KeyBoardBut_15</zorder>
+    <zorder>KeyBoardBut_16</zorder>
+    <zorder>KeyBoardBut_1</zorder>
+    <zorder>KeyBoardBut_33</zorder>
+    <zorder>KeyBoardBut_44</zorder>
+    <zorder>KeyBoardBut_9</zorder>
+    <zorder>KeyBoardBut_55</zorder>
+    <zorder>KeyBoardBut_13</zorder>
+    <zorder>KeyBoardBut_52</zorder>
+    <zorder>widgetPic_3</zorder>
+    <zorder>KeyBoardBut_26</zorder>
+    <zorder>KeyBoardBut_32</zorder>
+    <zorder>KeyBoardBut_31</zorder>
+    <zorder>widgetPic_5</zorder>
+    <zorder>KeyBoardBut_30</zorder>
+    <zorder>KeyBoardBut_2</zorder>
+    <zorder>KeyBoardBut_39</zorder>
+    <zorder>KeyBoardBut_14</zorder>
+    <zorder>KeyBoardBut_42</zorder>
+    <zorder>KeyBoardBut_4</zorder>
+    <zorder>KeyBoardBut_29</zorder>
+    <zorder>KeyBoardBut_36</zorder>
+    <zorder>KeyBoardBut_27</zorder>
+    <zorder>KeyBoardBut_51</zorder>
+    <zorder>KeyBoardBut_5</zorder>
+    <zorder>KeyBoardBut_7</zorder>
+    <zorder>KeyBoardBut_41</zorder>
+    <zorder>KeyBoardBut_23</zorder>
+    <zorder>widgetPic_1</zorder>
+    <zorder>KeyBoardBut_49</zorder>
+    <zorder>KeyBoardBut_28</zorder>
+    <zorder>KeyBoardBut_43</zorder>
+    <zorder>KeyBoardBut_18</zorder>
+    <zorder>KeyBoardBut_37</zorder>
+    <zorder>KeyBoardBut_40</zorder>
+    <zorder>KeyBoardBut_53</zorder>
+    <zorder>KeyBoardBut_19</zorder>
+    <zorder>widgetPic_4</zorder>
+    <zorder>KeyBoardBut_48</zorder>
+    <zorder>KeyBoardBut_54</zorder>
+    <zorder>KeyBoardBut_35</zorder>
+    <zorder>KeyBoardBut_21</zorder>
+    <zorder>KeyBoardBut_24</zorder>
+    <zorder>KeyBoardBut_11</zorder>
+    <zorder>KeyBoardBut_46</zorder>
+    <zorder>KeyBoardBut_47</zorder>
+    <zorder>KeyBoardBut_8</zorder>
+    <zorder>KeyBoardBut_38</zorder>
+    <zorder>KeyBoardBut_34</zorder>
+    <zorder>KeyBoardBut_50</zorder>
+    <zorder>KeyBoardBut_45</zorder>
+    <zorder>KeyBoardBut_22</zorder>
+    <zorder>KeyBoardBut_20</zorder>
+    <zorder>KeyBoardBut_10</zorder>
+    <zorder>KeyBoardBut_3</zorder>
+    <zorder>KeyBoardBut_25</zorder>
+    <zorder>KeyBoardBut_12</zorder>
+    <zorder>KeyBoardBut_6</zorder>
+    <zorder>KeyBoardBut_17</zorder>
+    <zorder>widgetPic_2</zorder>
+    <zorder>widgetPic_6</zorder>
+    <zorder>pushButtonNext</zorder>
+    <zorder>widgetFindResultSteam</zorder>
+    <zorder>widgetFindResultWebMoney</zorder>
+    <zorder>widgetFindResultSome</zorder>
+    <zorder>widgetFindResultNone</zorder>
    </widget>
    <widget class="QPushButton" name="LogoBut">
     <property name="geometry">
@@ -4572,6 +5002,22 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
       </size>
      </property>
     </widget>
+    <zorder>pushButton1GBHost</zorder>
+    <zorder>pushButtonKievstarInet</zorder>
+    <zorder>pushButtonFormatNet</zorder>
+    <zorder>pushButtonMegaStyleISP</zorder>
+    <zorder>pushButtonGreenNet</zorder>
+    <zorder>pushButtonNicUANet</zorder>
+    <zorder>pushButtonDiaNet</zorder>
+    <zorder>pushButtonTeNet</zorder>
+    <zorder>pushButtonBatyevkaNet</zorder>
+    <zorder>pushButtonKichkasNet</zorder>
+    <zorder>pushButtonGTSNet</zorder>
+    <zorder>pushButtonFreeHostUA</zorder>
+    <zorder>pushButtonInfomirNet</zorder>
+    <zorder>pushButtonDikiySadISP</zorder>
+    <zorder>pushButtonSipNet</zorder>
+    <zorder>widget</zorder>
    </widget>
    <widget class="QWidget" name="widgetInfo" native="true">
     <property name="geometry">
