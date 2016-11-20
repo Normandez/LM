@@ -5002,22 +5002,6 @@ background:qlineargradient(spread:reflect, x1:0.523, y1:0.534545, x2:0.528, y2:0
       </size>
      </property>
     </widget>
-    <zorder>pushButton1GBHost</zorder>
-    <zorder>pushButtonKievstarInet</zorder>
-    <zorder>pushButtonFormatNet</zorder>
-    <zorder>pushButtonMegaStyleISP</zorder>
-    <zorder>pushButtonGreenNet</zorder>
-    <zorder>pushButtonNicUANet</zorder>
-    <zorder>pushButtonDiaNet</zorder>
-    <zorder>pushButtonTeNet</zorder>
-    <zorder>pushButtonBatyevkaNet</zorder>
-    <zorder>pushButtonKichkasNet</zorder>
-    <zorder>pushButtonGTSNet</zorder>
-    <zorder>pushButtonFreeHostUA</zorder>
-    <zorder>pushButtonInfomirNet</zorder>
-    <zorder>pushButtonDikiySadISP</zorder>
-    <zorder>pushButtonSipNet</zorder>
-    <zorder>widget</zorder>
    </widget>
    <widget class="QWidget" name="widgetInfo" native="true">
     <property name="geometry">
@@ -5260,6 +5244,60 @@ font-weight: 600;
      </property>
      <property name="text">
       <string>ГОЛОВНА</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>3</y>
+       <width>221</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+color: rgb(235, 81, 15);
+}</string>
+     </property>
+     <property name="text">
+      <string>Безкоштовна гаряча лінія: 0(800)50-59-59</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>18</y>
+       <width>151</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+color: rgb(235, 81, 15);
+}</string>
+     </property>
+     <property name="text">
+      <string>e-mail: tyme-work@gmail.com</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>33</y>
+       <width>151</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+color: rgb(235, 81, 15);
+}</string>
+     </property>
+     <property name="text">
+      <string>TYME © 2014-2016 </string>
      </property>
     </widget>
    </widget>
